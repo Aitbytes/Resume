@@ -1,0 +1,373 @@
+{
+  "name": "Mohamed Aittaleb",
+  "info": {
+    "label": "Élève Ingénieur",
+    "characterClass": "Étudiant",
+    "brief": "Étudiant en ingénierie avec spécialisation en Informatique et Réseaux (Systèmes Communicants), je recherche un stage de quatre mois en développement pour l'été 2024. Originaire du Maroc, trilingue, créatif, passionné, avec d'excellentes compétences interpersonnelles. Je m'épanouis dans les environnements collaboratifs et apprécie particulièrement le travail d'équipe et les interactions étroites avec les autres.",
+    "image": "/home/a8taleb/Pictures/IMG_811900.png",
+    "quote": "Les choses les plus difficiles sont souvent les meilleures; si c'est facile, laissez cela à quelqu'un d'autre."
+  },
+  "contact": {
+    "website": "https://www.nowebsiteyet.com",
+    "phone": "+33 7 49 55 93 34",
+    "email": "aittaleb@insa-toulouse.fr",
+    "other": [
+      {
+        "label": "Email Personnel",
+        "flavor": "email",
+        "value": "aittaleb.med08@gmail.com"
+      }
+    ]
+  },
+  "location": {
+    "address": "7 Allée des Sciences Appliquées",
+    "city": "Toulouse",
+    "region": "Haute-Garonne",
+    "code": "31400",
+    "country": "France"
+  },
+  "meta": {
+    "format": "FRESH@0.1.0",
+    "version": "0.0.1"
+  },
+  "education": {
+    "summary": "Actuellement en quatrième année à l'INSA Toulouse avec une spécialisation en Informatique et Réseaux (Systèmes Communicants). Envisage de suivre le parcours Cyber-sécurité TLS-SEC en cinquième année.",
+    "level": "Degree",
+    "degree": "Informatique et Réseaux, Systèmes Communicants",
+    "history": [
+      {
+        "institution": "Institut National des Sciences Appliquées de Toulouse (INSA)",
+        "title": "Informatique et Réseaux, Systèmes Communicants",
+        "url": "https://www.insa-toulouse.fr/",
+        "start": "2020-09",
+        "end": "",
+        "grade": "Top 10% de la promotion",
+        "summary": "Étudiant actuellement en quatrième année, visant le parcours Cyber-sécurité TLS-SEC en cinquième année. Classé dans le top 10% de la promotion entre 2020 et 2022.",
+        "curriculum": [
+          "Première année : tronc commun",
+          "Deuxième année : modélisation, informatique et communication",
+          "Spécialisation : Informatique et Réseaux, Systèmes Communicants",
+          "Parcours envisagé : Cyber-sécurité TLS-SEC"
+        ]
+      },
+      {
+        "institution": "Lycée Français International Louis Massignon de Casablanca",
+        "title": "Baccalauréat Général, Option Internationale Arabe",
+        "url": "https://lfilm.education",
+        "start": "2020-06",
+        "end": "2020-06",
+        "grade": "Mention Très Bien",
+        "summary": "Baccalauréat général avec option internationale en arabe, spécialité en Sciences de la Vie et de la Terre et enseignement spécifique en Mathématiques, obtenu avec mention Très Bien.",
+        "curriculum": [
+          "Option Internationale du Baccalauréat (OIB)",
+          "Spécialité : Sciences de la Vie et de la Terre",
+          "Enseignement Spécifique : Mathématiques"
+        ]
+      }
+    ]
+  },
+  "employment": {
+    "summary": "Un an d'expérience combinée dans le développement commercial et le développement web, complété par un stage dans la confection.",
+    "history": [
+      {
+        "employer": "Junior INSA Service",
+        "position": "Chargé Commercial",
+        "summary": "Responsable de la prospection, de la direction et du suivi de projets liés au développement web. Actuellement en lice pour le poste de Vice-président Externe.",
+        "start": "2022-11",
+        "highlights": [
+          "Prospection, direction et suivi de deux projets web, générant un CA de 1 200 € HT. Projets centrés sur le développement d'une API ExpressJS avec Puppeteer pour des captures d'écran.",
+          "Négociation, signature et gestion d'un projet de 22 000 € HT pour une application cross-platform dédiée au sport, supervisant trois étudiants.",
+          "Réponses aux appels d'offres.",
+          "Conception et déploiement de la nouvelle offre de services de la JIS, ainsi que de la stratégie de communication commerciale.",
+          "Implication active dans le recrutement et la préparation à la formation du pôle commercial pour le prochain mandat.",
+          "Utilisation de techniques de web scraping pour la recherche de contacts."
+        ],
+        "keywords": [
+          "Commercial",
+          "Prospection",
+          "Négociation",
+          "Gestion de Projets",
+          "Développement Web",
+          "API",
+          "Express JS",
+          "Puppeteer",
+          "Application Cross-Platform",
+          "Stratégie de Communication",
+          "Recrutement",
+          "Web Scraping"
+        ]
+      },
+      {
+        "employer": "Manufacture Marocaine de Confection",
+        "position": "Stagiaire",
+        "summary": "Stage ouvrier avec responsabilités dans la mesure des temps de mouvement sur la chaîne de production textile et le rapport des résultats au responsable.",
+        "start": "2021-07",
+        "end": "2021-07",
+        "highlights": [
+          "Mesure des temps sur la chaîne de production.",
+          "Rapport des résultats au responsable.",
+          "Automatisation des tâches répétitives grâce à des scripts Python."
+        ],
+        "keywords": [
+          "Mesure de Temps",
+          "Chaîne de Production",
+          "Manufacture Textile",
+          "Rapport",
+          "Scripts Python"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Fabcamp INSA",
+      "category": "educational",
+      "role": "Chef de Projet",
+      "url": "https://example.com/fabcamp-insa",
+      "start": "2022-01",
+      "repo": "https://github.com/example/fabcamp-insa",
+      "description": "Supervision de quatre équipes d'étudiants dans la création de maquettes de turbines éoliennes à petite échelle en deux jours. Responsabilités comprenant l'évaluation du travail, la communication avec les enseignants, la résolution des problèmes techniques et le coaching pour une collaboration d'équipe efficace.",
+      "summary": "Supervision et guidage réussis des équipes à travers la réalisation de leurs projets.",
+      "keywords": [
+        "Gestion de Projet",
+        "Turbines Éoliennes",
+        "Équipes d'Étudiants",
+        "Collaboration d'Équipe",
+        "Fabcamp INSA"
+      ],
+      "media": [
+        {
+          "category": "photo",
+          "url": "https://example.com/fabcamp-insa-photo"
+        }
+      ]
+    },
+    {
+      "title": "MICTCP",
+      "category": "educational",
+      "role": "Développeur",
+      "url": "",
+      "start": "",
+      "repo": "Lien Git",
+      "description": "Expérience en programmation système, réseau et multithreading en C, avec connaissance de CMake.",
+      "summary": "Expérience en programmation système, réseau et multithreading en C, avec pratique de CMake.",
+      "keywords": [
+        "C",
+        "Programmation Système",
+        "Programmation Réseau",
+        "Multithreading",
+        "CMake"
+      ]
+    },
+    {
+      "title": "Projet de Chat Distribué en Java",
+      "category": "educational",
+      "role": "Développeur",
+      "url": "",
+      "start": "",
+      "repo": "Lien Git",
+      "description": "Développement d'un système de chat distribué en Java, appliquant les principes OOP et Design Patterns, avec utilisation de Maven.",
+      "summary": "Développement d'un chat distribué en Java, appliquant les principes OOP et Design Patterns, avec utilisation de Maven.",
+      "keywords": [
+        "Java",
+        "JDK",
+        "Design Patterns",
+        "OOP",
+        "Maven",
+        "Chat Distribué"
+      ]
+    },
+    {
+      "title": "Projets Divers en JavaScript/TypeScript",
+      "private": true,
+      "category": "personal",
+      "role": "Développeur",
+      "url": "",
+      "start": "",
+      "repo": "",
+      "description": "Réalisation de projets variés, incluant un jeu de Black Jack et des applications développées avec ExpressJS, React, NextJS, Svelte et SvelteKit.",
+      "summary": "Développement de projets variés en JavaScript et TypeScript, incluant des jeux et applications web.",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "ExpressJS",
+        "React",
+        "NextJS",
+        "Svelte",
+        "SvelteKit"
+      ]
+    },
+    {
+      "title": "Projet Home Server",
+      "category": "personal",
+      "role": "Développeur",
+      "url": "",
+      "start": "",
+      "repo": "",
+      "description": "Déploiement d'un serveur domestique hébergeant plusieurs instances (Nextcloud, Jellyfin, Portainer) avec utilisation de Docker. Familiarisation avec le système d'exploitation Debian et utilisation des outils Cloudflare Tunnels et Fractalnetwork pour l'accès externe.",
+      "summary": "Déploiement d'un serveur domestique multi-instance avec Docker et Debian, avec pratique des outils Cloudflare Tunnels et Fractalnetwork.",
+      "keywords": [
+        "Serveur Domestique",
+        "Docker",
+        "Debian",
+        "Nextcloud",
+        "Jellyfin",
+        "Portainer",
+        "Cloudflare Tunnels",
+        "Fractalnetwork"
+      ]
+    }
+  ],
+  "skills": {
+    "sets": [
+      {
+        "name": "Développement & Programmation",
+        "level": "Avancé",
+        "skills": [
+          "JavaScript",
+          "HTML5",
+          "CSS",
+          "MVC",
+          "REST",
+          "NextJS",
+          "ExpressJS",
+          "Pupeteer",
+          "Python",
+          "C",
+          "Java",
+          "TypeScript",
+          "Go",
+          "Ada",
+          "Design Patterns",
+          "OOP",
+          "Multithreading",
+          "Web Scraping"
+        ]
+      },
+      {
+        "name": "Gestion & Coordination",
+        "level": "Intermédiaire",
+        "skills": [
+          "Direction de projet",
+          "Suivi de projet",
+          "Négociation",
+          "Stratégie de communication",
+          "Gestion d'équipe",
+          "Coordination d'équipe",
+          "Évaluation du travail",
+          "Résolution de problèmes techniques",
+          "Coaching",
+          "Stratégie commerciale",
+          "Elaboration d'offres",
+          "Réponse aux appels d'offres"
+        ]
+      },
+      {
+        "name": "Systèmes & Réseaux",
+        "level": "Intermédiaire",
+        "skills": [
+          "Docker",
+          "Debian",
+          "Unix/Linux",
+          "Arch Linux",
+          "Cloudflare Tunnels",
+          "Fractalnetwork",
+          "Programmation système",
+          "Programmation réseau"
+        ]
+      },
+      {
+        "name": "Bases de Données",
+        "level": "Intermédiaire",
+        "skills": [
+          "PostgreSQL",
+          "MongoDB",
+          "SQLite"
+        ]
+      }
+    ]
+  },
+  "languages": [
+    {
+      "language": "Anglais",
+      "level": "C1",
+      "years": "Non spécifié",
+      "extra_info": "Cambridge First Certificate in English, Grade A. Compétent à l'écrit et à l'oral."
+    },
+    {
+      "language": "Français",
+      "level": "Courant",
+      "years": "18 ans"
+    },
+    {
+      "language": "Arabe Littéraire",
+      "level": "Autonome",
+      "years": "18 ans",
+      "extra_info": "Compétent à l'écrit et à l'oral."
+    },
+    {
+      "language": "Espagnol",
+      "level": "Niveau Seuil",
+      "years": "8",
+      "extra_info": "Diploma de Español como Lengua Extranjera nivel A2."
+    }
+  ],
+  "interests": [
+    {
+      "name": "musculation",
+      "summary": "Pratique la musculation depuis bientôt 5 ans, source de confiance en soit, et opportunité de dépassement",
+      "keywords": [
+        "musculation",
+        "powerlifting"
+      ]
+    },
+    {
+      "name": "callisthénie",
+      "summary": "Pratique la calisthénie ne paralléle avec la musculation depuis 5 ans",
+      "keywords": [
+        "callisthénie",
+        "poids du corps",
+        "force",
+        "flexibilité"
+      ]
+    },
+    {
+      "name": "judo",
+      "summary": "Ceinture jaune obtenue récement",
+      "keywords": [
+        "judo",
+        "arts martiaux",
+        "discipline",
+        "coordination",
+        "force"
+      ]
+    },
+    {
+      "name": "lutte",
+      "summary": "Pratique sporadique",
+      "keywords": [
+        "lutte",
+        "arts martiaux",
+        "force",
+        "technique"
+      ]
+    },
+    {
+      "name": "course à pied",
+      "summary": "Pratique la course régulièrement depuis 3 ans",
+      "keywords": [
+        "course à pied",
+        "cardio",
+        "condition physique"
+      ]
+    },
+    {
+      "name": "randonnées",
+      "summary": "Découverte d'une nouvelle passion pour les randonées",
+      "keywords": [
+        "randonnées",
+        "montagne"
+      ]
+    }
+  ]
+}
