@@ -5,87 +5,93 @@
 
 <div class="info_2">
 [aittaleb@insa-toulouse.fr](mailto:aittaleb@insa-toulouse.fr) |
-[aittaleb.med08@gmail.com](mailto:aittaleb.med08@gmail.com) |
 [linkedin.com/in/mohamed-aittaleb](https://www.linkedin.com/in/mohamed-aittaleb-84249325a/) |
 [Aitbytes](https://github.com/Aitbytes)
 
+Étudiant en quatrième année d'ingénierie à l'INSA Toulouse, spécialisé en Informatique et Réseaux. Je recherche un stage de 3-4 mois à partir du 3 juin dans les domaines du réseau, de l'IT ou du DevOps. Compétences en IT, développement logiciel et gestion de projet. Intéressé par des contrats en alternance pour contribuer efficacement.
 
-Élève-ingénieur en quatrième année, à l’INSA Toulouse. À la recherche d'un stage de trois à quatre mois en réseau, IT ou DevOps à partir du 3 juin. Je suis passionné, curieux, trilingue … ouverts aux contrats en alternance.
 </div>
 
 </span>
 
+
 ## Éducation
 
-### Institut National des Sciences Appliquées de Toulouse (INSA) | <location> Toulouse, France </location> <time> Sep 2020 - Present </time>
+### Institut National des Sciences Appliquées de Toulouse (INSA) <time>Sep 2020 - Présent</time>
+<location>Toulouse, France</location>  
 
-- Élève Ingénieur en Informatique et Réseaux, Systèmes Communicants
-- Envisage de suivre le parcours Cyber-sécurité TLS-SEC en cinquième année
-- Classé dans le top 10% de la promotion entre 2020 et 2022
+- **Quatrième année Informatique et Réseaux **
+- **Double diplôme visé :** Ingénieur, et Master en Sécurité des Systèmes d’Information et des Réseaux
+- **Distinctions :** Top 10% de ma promotion (2020-2022).
 
-### Lycée Français International Louis Massignon de Casablanca | <location> Casablanca, Maroc </location> <time> Jun 2020 </time>
+### Lycée Français International Louis Massignon de Casablanca <time>Obtenu en Juin 2020</time>
+<location>Casablanca, Maroc</location>  
 
-- Baccalauréat Général, Option Internationale Arabe, Mention Très Bien
-- Spécialité en Sciences de la Vie et de la Terre
-- Enseignement spécifique en Mathématiques
+- **Baccalauréat Général, Option Internationale Arabe**, Mention Très Bien
+   - **Spécialité :** Sciences de la Vie et de la Terre
+   - **Activités Extrascolaires :** Participation aux "Model of United Nations", développement des compétences en communication multilingue.
 
-## Experiences professionelles
+## Expériences professionnelles
 
 ### Stagiaire <time> Juil 2021 </time>
 
 <location> Manufacture Marocaine de Confection, Maroc </location>
 
-- Stage ouvrier dans la mesure des temps de mouvement sur la chaîne de production textile
-- Rapport des résultats de mesure au responsable
-- Automatisation des tâches répétitives via des scripts Python
 
-## Activité Associative
+- **Analyse et amélioration de la production** : Étudié la chaîne de production pour trouver et résoudre les points faibles, améliorant ainsi l'efficacité.
+- **Rapports et analyse de données** : Fourni des rapports clairs au responsable de production, offrant des perspectives pour améliorer les processus.
+- **Automatisation** : Utilisé Python pour créer des scripts qui automatisent les tâches répétitives, réduisant ainsi le temps nécessaire.
 
-### Chargé Commercial puis Vice-Président <time> Nov 2022 - Present </time>
+## Activité Associative et Projets
 
-<location> Junior INSA Service, Toulouse, France </location>
+### Chargé Commercial puis Vice-Président <time>Nov 2022 - Présent</time>
 
-- Prospection, direction de deux projets web, générant un CA de 1 200 € HT pour le développement d'une API ExpressJS avec  Puppeteer.
-- Gestion de litige. 
-- Réponses aux appels d'offres, et acquisition de nouveaux clients.
-- Conception et déploiement de la nouvelle offre de services de la JIS.
-- Implication active dans le recrutement et la préparation à la formation de nouveaux membre.
+<location>Junior INSA Service, Toulouse, France</location> 
 
-### Chef de Projet, Fabcamp INSA <time> Sep 2022 </time>
+- **Développement commercial** : Dynamisé la recherche de clients, augmentant le chiffre d'affaires de 5%.
+- **Gestion de projets** : Dirigé deux projets web, dont le développement d'une API ExpressJS.
+- **Leadership** : Revu l'offre de services pour optimiser l'efficacité.
+- **Résolution de conflits** : Traité les litiges avec les clients, préservant des relations commerciales importantes.
+- **Communication** : Formé et évalué les nouveaux membres, assurant la continuité des activités commerciales.
 
-<location> INSA Toulouse, France </location>
 
-- Supervision de quatre équipes d'étudiants dans la création de maquettes de turbines éoliennes
-- Évaluation du travail des équipes, communication avec les enseignants et résolution de problèmes techniques
-- Coaching pour une collaboration d'équipe efficace
+### Chef de Projet, Fabcamp INSA <time>Sep 2022</time>
+<location>INSA Toulouse, France</location> 
+
+- **Coordination de projet** : Géré quatre équipes d'étudiants dans la création de maquettes de turbines éoliennes.
+- **Évaluation et feedback** : Évalué les travaux d'équipe et facilité la communication entre étudiants et enseignants.
 
 ## Projets Académiques et Personnels
 
 ### API TCP Simulée
-
-- Création d'une API TCP en C permettant de gérer la perte de paquets réseau sur un réseau bruyant. Application de la programmation système et réseau dans l’environnement Unix, équipe de deux étudiants.
+- **Développement réseau et programmation en C** : Conception d'une API TCP en C pour la gestion de la perte de paquets dans des réseaux bruyants, illustrant la maîtrise de la programmation système sous Unix et la compréhension des protocoles réseau tels que TCP/IP.
 
 ### Projet de Chat Distribué en Java
-
-- Développement d'un chat distribué en Java, utilisation de Maven puis Gradle. Méthode Agile, utilisation de Jira.
+- **Développement Full Stack et Gestion Agile** : Création d'un système de chat distribué en Java, utilisant Maven et Gradle pour la gestion de dépendances. Application de la méthodologie Agile avec Jira pour une gestion de projet optimale, démontrant des compétences en programmation Full Stack et en développement Agile.
 
 ### Algorithme de Graphes
-
- - Un projet en JAVA consistant à mettre en œuvre les algorithmes de Dijkstra et A* pour identifier le temps ou la distance minimale de déplacement entre deux points, équipe de deux étudiants.
+- **Ingénierie logicielle et Résolution de Problèmes** : Implémentation des algorithmes de Dijkstra et A* en Java pour l'optimisation de trajets, démontrant des compétences avancées en analyse algorithmique et en résolution de problèmes complexes.
 
 ### Projet Home Server
+- **Infrastructure IT, Cloud Computing et Cybersécurité** : Mise en place d'un cluster pour le déploiement de services personnels, incluant la configuration d'un VPS Debian, la sécurisation contre les attaques, et l'intégration de Docker pour la gestion de conteneurs. Utilisation de Proxmox pour la virtualisation, mise en place d'un VPN via Wireguard et automatisation des déploiements avec Ansible, montrant des compétences en virtualisation, cloud computing, et cybersécurité.
 
-- Déploiement d'un serveur domestique multi-instance avec Docker et Debian, pratique des outils Cloudflare Tunnels et Fractalnetwork
 
-## Compétences
+## Compétences Techniques
 
-- **Langages de programmation** : C | Java | Javascript | HTML5 | Python | Ada | SQL 
-- **IT** : Git | Contenerisation Docker | Linux/Unix | Ansible | Hypervisor et Virtualisation (Proxmox) | Ansible | Databases | Systèmes distribués | Web Scraping | Design Patterns | OOP  
-- **Langues** :  Français | Anglais | Arabe  
-- **Autres soft skills** : Travail d’équipe | Compréhension d’un besoin | Gestion de projet | Communication | Gestion de conflit | Parole en public
+- **Développement Logiciel et Programmation** : Java, Python, C, Golang, TypeScript, JavaScript, HTML5, CSS, ReactJS, Django, Design Patterns, OOP, Full Stack Development.
+- **Gestion de Données et Bases de Données** : SQL, PostgreSQL, MongoDB, Bases de données relationnelles et non relationnelles.
+- **Infrastructure IT et Cloud Computing** : Git, Docker, Kubernetes (GKE) , Linux/Unix, Proxmox, GCP, Solutions cloud privées et publiques.
+- **Développement Agile et Gestion de Projet** : Méthodologies Agile (SCRUM, AGILE), Gestion de projet IT, CI/CD pipelines avec Github actions , Ansible.
+
+## Langues et Soft Skills
+
+- **Langues** : Français (courant), Anglais (professionnel), Arabe (bilingue).
+- **Soft Skills** : Travail d’équipe, Compréhension des besoins, Communication, Gestion de conflit, Prise de parole en public.
 
 ## Hobbies
 
-- Musculation | Calisthenie | Course à pied | Randonnée
+- **Activités Physiques** : Passionné de Musculation, Calisthenie, Course à pied et Randonnée, activités qui renforcent ma discipline et ma résilience.
+- **Art oratoire** : Participé à des cours d'improvisation, et à deux éditions du concours d'éloquence, le Jeudi de l'éloquence, renforçant mon aisance dans les prises de parole en publique
+
 
 
