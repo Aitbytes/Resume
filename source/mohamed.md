@@ -61,20 +61,6 @@
 - **Coordination de projet** : Géré quatre équipes d'étudiants dans la création de maquettes de turbines éoliennes.
 - **Évaluation et feedback** : Évalué les travaux d'équipe et facilité la communication entre étudiants et enseignants.
 
-## Projets Académiques et Personnels
-
-### API TCP Simulée
-- **Développement réseau et programmation en C** : Conception d'une API TCP en C pour la gestion de la perte de paquets dans des réseaux bruyants, illustrant la maîtrise de la programmation système sous Unix et la compréhension des protocoles réseau tels que TCP/IP.
-
-### Projet de Chat Distribué en Java
-- **Développement Full Stack et Gestion Agile** : Création d'un système de chat distribué en Java, utilisant Maven et Gradle pour la gestion de dépendances. Application de la méthodologie Agile avec Jira pour une gestion de projet optimale, démontrant des compétences en programmation Full Stack et en développement Agile.
-
-### Algorithme de Graphes
-- **Ingénierie logicielle et Résolution de Problèmes** : Implémentation des algorithmes de Dijkstra et A* en Java pour l'optimisation de trajets, démontrant des compétences avancées en analyse algorithmique et en résolution de problèmes complexes.
-
-### Projet Home Server
-- **Infrastructure IT, Cloud Computing et Cybersécurité** : Mise en place d'un cluster pour le déploiement de services personnels, incluant la configuration d'un VPS Debian, la sécurisation contre les attaques, et l'intégration de Docker pour la gestion de conteneurs. Utilisation de Proxmox pour la virtualisation, mise en place d'un VPN via Wireguard et automatisation des déploiements avec Ansible, montrant des compétences en virtualisation, cloud computing, et cybersécurité.
-
 
 ## Compétences Techniques
 
