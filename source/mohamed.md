@@ -1,6 +1,5 @@
 
-<div class="left-column">
-<span class="name">Mohamed Aittaleb</span>
+<div class="left-column"> <span class="name">Mohamed Aittaleb</span>
 
 
 <img src="./source/71.jpg" class="profile_pic">
@@ -17,20 +16,26 @@
 
 <i class="fa fa-github" aria-hidden="true"></i> [Aitbytes](https://github.com/Aitbytes)
 
+
+
+
  Élève ingénieur en quatrième année à l'INSA Toulouse. Je recherche un stage de 3-4 mois à partir du 3 juin en Développement ou en infrastructure. Intéressé par des contrats en alternance pour contribuer efficacement.
 
 </div>
 
 ## Compétences Techniques
 
-- **Développement Logiciel et Programmation** : Python, Django , Java, C, Golang, TypeScript, JavaScript, ReactJS, HTML5, CSS, Design Patterns, OOP, Développement Full Stack, SQL, PostgreSQL, MongoDB..
-- **Infrastructure IT et Cloud Computing** : Git, Docker, Kubernetes (GKE) , Linux/Unix, Proxmox, KVM, GCP (Google Cloud Platform), Ansible.
-- **Développement Agile et Gestion de Projet** : Méthodologies Agile (SCRUM, AGILE), Gestion de projet IT, pipelines CI/CD  avec Github actions.
+- **Développement Logiciel et Programmation** : Python, Django , Java, C, Golang, TypeScript, JavaScript, ReactJS, HTML5, CSS, OOP, Développement Full Stack, SQL, PostgreSQL, MongoDB..
+- **Infrastructure et Cloud** : Git, Docker, Kubernetes (GKE) , Linux/Unix, Proxmox, KVM, GCP (Google Cloud Platform), Ansible, Github actions.
+
 
 ## Langues et Soft Skills
 
 - **Langues** : Français (courant), Anglais (professionnel), Arabe (bilingue).
-- **Soft Skills** : Travail d’équipe, Compréhension des besoins, Communication, Gestion de conflit, Prise de parole en public.
+- **Soft Skills** : Travail d’équipe, Compréhension des besoins, Communication, Gestion de conflit, Gestion de projet, Méthode agile, Prise de parole en public.
+
+
+
 
 
 </div>
@@ -68,24 +73,21 @@
 
 ## Activité Associative et Projets
 
-### Chargé Commercial puis Vice-Président <time>Nov 2022 - Présent</time>
+### Junior INSA Service, Toulouse, France<time>Nov 2022 - Présent</time>
 
-<location>Junior INSA Service, Toulouse, France</location> 
+<location>Chargé Commercial puis **Vice-Président**</location> 
 
 - **Développement commercial** : Dynamisé la recherche de clients, augmentant le chiffre d'affaires de 5%.
 - **Gestion de projets** : Dirigé au total quatre projets en développement web et mobile, assurant la satisfaction client.
-- **Leadership** : Revu l'offre de services pour optimiser l'efficacité.
-- **Résolution de conflits** : Traité les litiges avec les clients, préservant des relations commerciales importantes.
+- **Leadership** : Revu l'offre de services, en analysant les KPI pour optimiser l'efficacité.
+- **Résolution de conflits** : Traité les litiges avec les clients, préservant la structure financièrement.
 - **Communication** : Formé et évalué les nouveaux membres, assurant la continuité des activités commerciales.
 
 
-### Chef de Projet, Fabcamp INSA <time>Sep 2022</time>
-<location>INSA Toulouse, France</location> 
+## Licenses & certifications
 
-- **Coordination de projet** : Géré quatre équipes d'étudiants dans la création de maquettes de turbines éoliennes.
-- **Évaluation et feedback** : Évalué les travaux d'équipe et facilité la communication entre étudiants et enseignants.
-
-
+- **Baseline : Infractructure** <location>Google</location>  
+- **Google Cloud Essentials** <location>Google</location>  
 
 ## Hobbies
 

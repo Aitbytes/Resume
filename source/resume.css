@@ -110,12 +110,8 @@ li {
     line-height: 140%;
 }
 
-.info img {
-    width: 15px;
-}
-
-.info a img {
-    width: 12px;
+.info_2 p {
+    line-height: 150%;
 }
 
 .info,
