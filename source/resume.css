@@ -2,22 +2,62 @@ html {
     padding: 0;
     margin: 0;
 }
+
 @media print {
-  @page { margin: 0; }
-  body { margin: 1.6cm; }
+    @page {
+        margin: 0;
+    }
+
+    body {
+        margin: 1.6cm;
+    }
 }
 
-body {
+.profile_pic {
+    height: 4.5cm;
+    
+    width: auto;
+    aspect-ratio: initial;
+    border-radius: 50%;
     display: block;
-    max-width: 700px;
-    margin: 0 auto;
+    margin: 0.5cm auto;
+}
+
+
+body {
+    display: flex; /* Use flexbox to create columns */
+    max-width: 100%;
+    margin: 0 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 14px;
 }
 
+.left-column {
+    /* Style for the left column */
+    flex: 1; /* Make the left column flexible to take available space */
+    padding: 20px; /* Adjust the padding as needed */
+    background-color: #f0f0f0; /* Set the background color for the left column */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.left-column li {
+    line-height: 150%;
+    margin-bottom: 0.5rem
+}
+
+.main-content {
+    /* Style for the main content column */
+    padding: 20px; /* Adjust the padding as needed */
+    flex: 2; /* Make the main content column flexible */
+}
+
 .name {
-    font-size: 150%;
+    font-size: 200%;
     line-height: 150%;
     font-weight: bold;
     display: block;
@@ -30,6 +70,7 @@ h1 {
     font-weight: bold;
     padding: 0;
     margin: 1rem 0;
+    color: #333;
 }
 
 h2 {
@@ -53,42 +94,36 @@ h4 {
     margin: 0 0 0.25em 0;
 }
 
-p, ul {
+p,
+ul {
     font-size: 100%;
     margin: 0;
 }
 
-ul, ol {
+ul,
+ol {
     padding: 0 0 0 1.5rem;
     margin: 0;
 }
 
 li {
-    line-height: 100%;
-    /* change this for tighter spacing */
-    /* default 150% */
+    line-height: 140%;
 }
 
-/* assume images are icons */
-/* icons for skills/tools */
 .info img {
     width: 15px;
 }
 
-/* assume images are icons */
-/* icons for contact info */
 .info a img {
     width: 12px;
 }
-.info {
-    display: block;
-    text-align: center;
-}
 
+.info,
 .info_2 {
     display: block;
-    text-align: center;
+    text-align: justify;
 }
+
 a {
     color: #0D47A1;
 }
@@ -108,7 +143,3 @@ location {
     font-style: italic;
 }
 
-.info {
-    display: block;
-    text-align: center;
-}
