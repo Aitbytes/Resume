@@ -63,6 +63,13 @@ body {
     display: block;
     text-align: center;
 }
+.intitule {
+    font-size: 150%;
+    line-height: 150%;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
 
 h1 {
     border: none;
@@ -118,6 +125,14 @@ li {
 .info_2 {
     display: block;
     text-align: justify;
+}
+.descriptif {
+
+    display: block;
+    text-align: left;
+}
+.descriptif li {
+    line-height: 100%;
 }
 
 a {

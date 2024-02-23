@@ -1,7 +1,6 @@
 
 <div class="left-column"> <span class="name">Mohamed Aittaleb</span>
 
-
 <img src="./source/71.jpg" class="profile_pic">
 <span class="info">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -17,9 +16,15 @@
 <i class="fa fa-github" aria-hidden="true"></i> [Aitbytes](https://github.com/Aitbytes)
 
 
+<div class="descriptif">
 
+## Recherche un **stage**
 
- Élève ingénieur en quatrième année à l'INSA Toulouse. Je recherche un stage de 3-4 mois à partir du 3 juin en Développement ou en infrastructure. Intéressé par des contrats en alternance pour contribuer efficacement.
+ - De Juin à Septembre 2024 (4 mois).
+ - **Développement** ou **Infrastructure**.
+ - Intéressé par des contrats en **alternance**.
+
+</div>
 
 </div>
 
@@ -44,6 +49,8 @@
 
 <div class="main-content">
 
+ <span class="intitule">ÉTUDIANT INGÉNIEUR INSA 4 ÈME ANNÉE</span>
+
 ## Éducation
 
 ### Institut National des Sciences Appliquées de Toulouse (INSA) <time>Sep 2020 - Présent</time>
@@ -60,6 +67,26 @@
    - **Spécialité :** Sciences de la Vie et de la Terre
    - **Activités Extrascolaires :** Participation aux "Model of United Nations", développement des compétences en communication multilingue.
 
+
+## Activité Associative et Projets
+
+### Vice-Président <br> Junior INSA Service, Toulouse, France<time>Nov 2022 - Présent</time>
+
+
+- **Développement commercial** : Dynamisé la recherche de clients, augmentant le chiffre d'affaires de 5%.
+- **Gestion de projets** : Dirigé au total quatre projets en développement web et mobile, assurant la satisfaction client.
+- **Leadership** : Revu l'offre de services, en analysant les KPI, pour optimiser l'efficacité.
+- **Résolution de conflits** : Traité les litiges avec les clients, préservant la structure contre des risques financiers.
+- **Communication** : Formé et évalué les nouveaux membres, assurant la continuité des activités commerciales.
+- **Conception** : Défini les exigeances fonctionnelle du futur ERP de la structure, facilitant le travail de l'équipe de développement. 
+
+
+## Licenses & certifications
+
+- **Baseline : Infractructure** <location>Google</location>  
+- **Google Cloud Essentials** <location>Google</location>  
+
+
 ## Expériences professionnelles
 
 ### Stagiaire <time> Juil 2021 </time>
@@ -71,23 +98,6 @@
 - **Rapports et analyse de données** : Fourni des rapports clairs au responsable de production, offrant des perspectives pour améliorer les processus.
 - **Automatisation** : Utilisé Python pour créer des scripts qui automatisent les tâches répétitives, réduisant ainsi le temps nécessaire.
 
-## Activité Associative et Projets
-
-### Junior INSA Service, Toulouse, France<time>Nov 2022 - Présent</time>
-
-<location>Chargé Commercial puis **Vice-Président**</location> 
-
-- **Développement commercial** : Dynamisé la recherche de clients, augmentant le chiffre d'affaires de 5%.
-- **Gestion de projets** : Dirigé au total quatre projets en développement web et mobile, assurant la satisfaction client.
-- **Leadership** : Revu l'offre de services, en analysant les KPI pour optimiser l'efficacité.
-- **Résolution de conflits** : Traité les litiges avec les clients, préservant la structure financièrement.
-- **Communication** : Formé et évalué les nouveaux membres, assurant la continuité des activités commerciales.
-
-
-## Licenses & certifications
-
-- **Baseline : Infractructure** <location>Google</location>  
-- **Google Cloud Essentials** <location>Google</location>  
 
 ## Hobbies
 
