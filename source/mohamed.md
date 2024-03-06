@@ -34,14 +34,16 @@
 - **Développement Logiciel et Programmation** : Python, Django , Java, C, Ada , TypeScript, JavaScript, ReactJS, HTML5, CSS, SQL, PostgreSQL, MongoDB..
 - **Infrastructure et Cloud** : Git, Docker, Kubernetes (GKE) , Linux/Unix, Proxmox, KVM, GCP (Google Cloud Platform), Ansible, Github actions.
 
-## Licenses & certifications
-
-- **Baseline : Infrastructure** <location>Google</location>  
-- **Google Cloud Essentials** <location>Google</location>  
 
 ## Langues 
 
 - Français (courant), Anglais (professionnel), Arabe (bilingue).
+
+## Hobbies
+
+- **Activités Physiques** : Passionné de Musculation, Callisthénie, Course à pied et Randonnée.
+- **Art oratoire** : Participé à des cours d'improvisation, et à des concours d'éloquence.
+
 
 
 
@@ -90,22 +92,23 @@
 - **Architecture métier** : Traduit les besoins métier en exigeances techniques dans le cadre des propositions commerciales. 
 - **Leadership** : Revu l'offre de services, en analysant les KPI, pour optimiser l'efficacité.
 
----
 
-### Manufacture Marocaine de Confection, Maroc 
+## Projets Académiques et Personnels
+### Mouton fugueurs (en cours)
+Projet de recherche portant sur l'implémentation d'un système IoT de géolocalisation du bétail dans un environnement rural : État de l'art, architecture du réseau. 
 
-#### Stagiaire <time> Juillet 2021 </time>
+### API TCP Simulée
+Développement d'une API TCP en C pour la gestion de la perte de paquets dans des réseaux bruyants.
 
-- **Analyse et amélioration de la production** : Effectué des mesures sur la chaîne de production pour trouver et résoudre les points faibles, améliorant ainsi l'efficacité.
-- **Rapports et analyse de données** : Fourni des rapports clairs au responsable de production, offrant des perspectives pour améliorer les processus.
-- **Automatisation** : Utilisé Python pour créer des scripts qui automatisent les tâches répétitives, réduisant ainsi le temps nécessaire.
+### Projet de Chat Distribué en Java
+Création d'un système de chat distribué, sur un réseau local, en Java, avec détection en temps réel des connexions.
 
+### Projet "Home Server"
+Mise en place de conteneurs docker pour le déploiement de services web, avec une gestion de la sécurité : configuration de firewalls, de proxys et de réseaux virtuels docker.
 
-## Hobbies
+## Licenses & certifications
 
-- **Activités Physiques** : Passionné de Musculation, Callisthénie, Course à pied et Randonnée, activités qui renforcent ma discipline et ma résilience.
-- **Art oratoire** : Participé à des cours d'improvisation, et à deux éditions du concours d'éloquence, le Jeudi de l'éloquence, renforçant mon aisance dans les prises de parole en publique
-- **Cyber sécurité** : Participé à des "capture the flag".  
-
+- **Baseline : Infrastructure** <location>Google</location>  
+- **Google Cloud Essentials** <location>Google</location>  
 
 </div>
