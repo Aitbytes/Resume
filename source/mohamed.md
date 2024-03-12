@@ -22,7 +22,7 @@
 ## Recherche un **stage**
 
  - De Juin à Septembre 2024 (4 mois). Sur Toulouse.
- - **Développement**, **Ops**, ou **Sécurité**.
+ - **Développement**, ou **Cyber-sécurité**.
  - Ouvert à l'évolution en contrat de professionnalisation.
 
 </div>
@@ -72,7 +72,6 @@
 
 - **Baccalauréat Général, Option Internationale Arabe**, Mention Très Bien
    - **Spécialité :** Sciences de la Vie et de la Terre
-   - **Activités Extrascolaires :** Participation aux "Model of United Nations", développement des compétences en communication multilingue.
 
 
 ## Expériences
@@ -80,31 +79,31 @@
 ### Junior INSA Service, Toulouse, France 
 #### Vice-Président <time>Novembre 2023 - Présent</time>
 
-- **Stratégie et pilotage** : Gestion de la stratégie et de l'amélioration continue
-- **Communication** : Formé et évalué les nouveaux membres, assurant la continuité des activités commerciales. 
-- **Management** : Gestion d'une équipe de 18 personnes.
-- **Résolution de conflits** : Traité les litiges avec les clients, préservant la structure contre des risques financiers.
+- **Management** : Gestion d'une équipe de 25 personnes.
+- **Stratégie et pilotage** : Gestion de la stratégie et du processus d'amélioration continue
+- **Communication** : Formé et évalué les nouveaux membres. 
+- **Résolution de conflits** : Traité des litiges clients, préservant la structure contre des risques financiers.
 
-#### Responsable commercial <time>Novembre 2022 - Novembre 2023</time>
+#### Directeur commercial <time>Novembre 2022 - Novembre 2023</time>
 
 - **Acquisition de comptes** : Dynamisé la recherche de clients, augmentant le chiffre d'affaires.
-- **Gestion de projets** : Dirigé au total quatres projets en développement web et mobile, assurant la satisfaction client.
-- **Architecture métier** : Traduit les besoins métier en exigeances techniques dans le cadre des propositions commerciales. 
-- **Leadership** : Revu l'offre de services, en analysant les KPI, pour optimiser l'efficacité.
+- **Gestion de projets** : Managé quatre projets en développement web et mobile, assurant la satisfaction client.
+- **Architecture métier** : Traduit les besoins métier en exigences techniques dans le cadre des propositions commerciales. 
+- **Leadership** : Analysé les KPI afin de revoir l'offre de services, optimisant l'efficacité opérationnelle.
 
 
 ## Projets Académiques et Personnels
 ### Mouton fugueurs (en cours)
-Projet de recherche portant sur l'implémentation d'un système IoT de géolocalisation du bétail dans un environnement rural : État de l'art, architecture du réseau. 
+- Projet de recherche portant sur l'implémentation d'un système IoT de géolocalisation du bétail dans un environnement rural : État de l'art, architecture du réseau. 
 
 ### API TCP Simulée
-Développement d'une API TCP en C pour la gestion de la perte de paquets dans des réseaux bruyants.
+- Développement d'une API TCP en C pour la gestion de la perte de paquets dans des réseaux bruyants.
 
 ### Projet de Chat Distribué en Java
-Création d'un système de chat distribué, sur un réseau local, en Java, avec détection en temps réel des connexions.
+- Création d'un système de chat distribué sur un réseau local, en Java, avec détection en temps réel des connexions.
 
 ### Projet "Home Server"
-Mise en place de conteneurs docker pour le déploiement de services web, avec une gestion de la sécurité : configuration de firewalls, de proxys et de réseaux virtuels docker.
+- Mise en place de conteneurs docker pour le déploiement de services web, avec une gestion de la sécurité : configuration de firewalls, de proxys et de réseaux virtuels docker.
 
 ## Licenses & certifications
 
