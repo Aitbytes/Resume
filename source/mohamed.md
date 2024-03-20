@@ -75,7 +75,7 @@
 ## Projets Académiques et Personnels
 
 ### Moutons Fugueurs (en cours)
-- Projet axé sur l'implémentation d'un système **IoT** de géolocalisation du bétail dans un environnement rural : État de l'art, développement en langage **C++** sur plateforme **Arduino**, intégration de modules **GSM** et **GPS**.
+- Projet axé sur l'implémentation d'un système **IoT** de géolocalisation du bétail dans un environnement rural : État de l'art, développement sur **Arduino**, intégration de modules **GSM** et **GPS**.
 
 ### Contrôleur Ethernet
 - Conception en **VHDL** d'un contrôleur Ethernet sur **FPGA**
