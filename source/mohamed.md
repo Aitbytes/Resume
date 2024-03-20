@@ -72,25 +72,6 @@
 
 - **Baccalauréat Général, Option Internationale Arabe**, Mention Très Bien
 
-
-## Expériences
-
-### Junior INSA Service, Toulouse, France 
-#### Vice-Président <time>Novembre 2023 - Présent</time>
-
-- **Pilotage** : Gestion d'une équipe de 25 étudiants.
-- **Stratégie** : Gestion de la stratégie et du processus d'amélioration continue.
-- **Communication** : Formation et évaluation des nouveaux membres.
-- **Résolution de conflits** : Traitement des litiges clients, préservation de la structure contre des risques financiers.
-
-#### Directeur commercial <time>Novembre 2022 - Novembre 2023</time>
-
-- **Acquisition de comptes** : Dynamisation de la recherche de clients, augmentation du chiffre d'affaires.
-- **Gestion de projets** : Management de quatre projets en développement web et mobile, assurant la satisfaction client.
-- **Architecture métier** : Traduction des besoins métier en exigences techniques dans le cadre des propositions commerciales.
-- **Leadership** : Analyse des KPI afin de revoir l'offre de services, optimisation de l'efficacité opérationnelle.
-
-
 ## Projets Académiques et Personnels
 
 ### Moutons Fugueurs (en cours)
@@ -107,6 +88,24 @@
 
 ### Projet "Home Server"
 - Mise en place de conteneurs **docker** pour le déploiement de services web, avec une gestion de la **sécurité** : configuration de **firewalls**, de **proxys** et de **réseaux** virtuels docker.
+
+## Expériences
+
+### Junior INSA Service, Toulouse, France 
+#### Vice-Président <time>Novembre 2023 - Présent</time>
+
+- **Pilotage** : Gestion d'une équipe de 25 étudiants.
+- **Stratégie** : Gestion de la stratégie et du processus d'amélioration continue.
+- **Communication** : Formation et évaluation des nouveaux membres.
+- **Résolution de conflits** : Traitement des litiges clients, préservation de la structure contre des risques financiers.
+
+#### Directeur commercial <time>Novembre 2022 - Novembre 2023</time>
+
+- **Gestion de projets** : Management de quatre projets en développement web et mobile, assurant la satisfaction client.
+- **Architecture métier** : Traduction des besoins métier en exigences techniques dans le cadre des propositions commerciales.
+- **Leadership** : Analyse des KPI afin de revoir l'offre de services, optimisation de l'efficacité opérationnelle.
+
+
 
 ## Licenses & certifications
 
