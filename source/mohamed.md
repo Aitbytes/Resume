@@ -22,7 +22,7 @@
 ## Recherche un **stage**
 
  - De Juin à Septembre 2024 (4 mois). Sur Toulouse.
- - **Développement**, ou **Cyber-sécurité**.
+ - **Développement**, **DevOps** ou **Cyber-sécurité**.
  - Ouvert à l'évolution en contrat de professionnalisation.
 
 </div>
@@ -31,8 +31,8 @@
 
 ## Compétences Techniques
 
-- **Développement Logiciel et Programmation** : Python, Django , Java, C, Ada , TypeScript, JavaScript, ReactJS, HTML5, CSS, SQL, PostgreSQL, MongoDB..
-- **Infrastructure et Cloud** : Git, Docker, Kubernetes (GKE) , Linux/Unix, Proxmox, KVM, GCP (Google Cloud Platform), Ansible, Github actions.
+- **Développement Logiciel et Programmation** : Python, Django , Java, C++, C, Ada , TypeScript, JavaScript, ReactJS, HTML5, CSS, SQL, PostgreSQL, MongoDB..
+- **Infrastructure et Cloud** : Linux/Unix, Git, Docker, Kubernetes (GKE), Ansible, Github actions, Proxmox, KVM, GCP (Google Cloud Platform), 
 
 
 ## Langues 
@@ -71,7 +71,6 @@
 <location>Casablanca, Maroc</location>  
 
 - **Baccalauréat Général, Option Internationale Arabe**, Mention Très Bien
-   - **Spécialité :** Sciences de la Vie et de la Terre
 
 
 ## Expériences
@@ -79,31 +78,35 @@
 ### Junior INSA Service, Toulouse, France 
 #### Vice-Président <time>Novembre 2023 - Présent</time>
 
-- **Management** : Gestion d'une équipe de 25 personnes.
-- **Stratégie et pilotage** : Gestion de la stratégie et du processus d'amélioration continue
-- **Communication** : Formé et évalué les nouveaux membres. 
-- **Résolution de conflits** : Traité des litiges clients, préservant la structure contre des risques financiers.
+- **Pilotage** : Gestion d'une équipe de 25 étudiants.
+- **Stratégie** : Gestion de la stratégie et du processus d'amélioration continue.
+- **Communication** : Formation et évaluation des nouveaux membres.
+- **Résolution de conflits** : Traitement des litiges clients, préservation de la structure contre des risques financiers.
 
 #### Directeur commercial <time>Novembre 2022 - Novembre 2023</time>
 
-- **Acquisition de comptes** : Dynamisé la recherche de clients, augmentant le chiffre d'affaires.
-- **Gestion de projets** : Managé quatre projets en développement web et mobile, assurant la satisfaction client.
-- **Architecture métier** : Traduit les besoins métier en exigences techniques dans le cadre des propositions commerciales. 
-- **Leadership** : Analysé les KPI afin de revoir l'offre de services, optimisant l'efficacité opérationnelle.
+- **Acquisition de comptes** : Dynamisation de la recherche de clients, augmentation du chiffre d'affaires.
+- **Gestion de projets** : Management de quatre projets en développement web et mobile, assurant la satisfaction client.
+- **Architecture métier** : Traduction des besoins métier en exigences techniques dans le cadre des propositions commerciales.
+- **Leadership** : Analyse des KPI afin de revoir l'offre de services, optimisation de l'efficacité opérationnelle.
 
 
 ## Projets Académiques et Personnels
-### Mouton fugueurs (en cours)
-- Projet de recherche portant sur l'implémentation d'un système IoT de géolocalisation du bétail dans un environnement rural : État de l'art, architecture du réseau. 
+
+### Moutons Fugueurs (en cours)
+- Projet axé sur l'implémentation d'un système **IoT** de géolocalisation du bétail dans un environnement rural : État de l'art, développement en langage **C++** sur plateforme **Arduino**, intégration de modules **GSM** et **GPS**.
+
+### Contrôleur Ethernet
+- Conception en **VHDL** d'un contrôleur Ethernet sur **FPGA**
 
 ### API TCP Simulée
-- Développement d'une API TCP en C pour la gestion de la perte de paquets dans des réseaux bruyants.
+- Développement d'une API **TCP** en **C** pour la gestion de la perte de paquets dans des réseaux bruyants.
 
 ### Projet de Chat Distribué en Java
-- Création d'un système de chat distribué sur un réseau local, en Java, avec détection en temps réel des connexions.
+- Création d'un système de chat distribué sur un réseau local, en **Java**, avec détection en temps réel des connexions.
 
 ### Projet "Home Server"
-- Mise en place de conteneurs docker pour le déploiement de services web, avec une gestion de la sécurité : configuration de firewalls, de proxys et de réseaux virtuels docker.
+- Mise en place de conteneurs **docker** pour le déploiement de services web, avec une gestion de la **sécurité** : configuration de **firewalls**, de **proxys** et de **réseaux** virtuels docker.
 
 ## Licenses & certifications
 
