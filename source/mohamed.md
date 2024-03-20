@@ -23,7 +23,7 @@
 
  - De Juin à Septembre 2024 (4 mois). Sur Toulouse.
  - **Développement**, **DevOps** ou **Cyber-sécurité**.
- - Ouvert à l'évolution en alternance.
+ - Ouvert à l'évolution en **alternance** à partir de Septembre.
 
 </div>
 
