@@ -1,7 +1,6 @@
 
 <div class="left-column"> <span class="name">Mohamed Aittaleb</span>
 
-<img src="./source/71.jpg" class="profile_pic">
 <span class="info">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
@@ -19,9 +18,9 @@
 
 <div class="descriptif">
 
-## Recherche un **stage**
+# <span class="recherche">Recherche un **stage**</span>
 
- - De Juin à Septembre 2024 (4 mois). Sur Toulouse.
+ - **De Juin à Septembre 2024 (4 mois). Sur Toulouse**.
  - **Développement**, **DevOps** ou **Cyber-sécurité**.
  - Ouvert à l'évolution en **alternance** à partir de Septembre.
 
@@ -31,13 +30,18 @@
 
 ## Compétences Techniques
 
-- **Développement Logiciel et Programmation** : Python, Django , Java, C++, C, Ada , TypeScript, JavaScript, ReactJS, HTML5, CSS, SQL, PostgreSQL, MongoDB..
-- **Infrastructure et Cloud** : Linux/Unix, Git, Docker, Kubernetes (GKE), Ansible, Github actions, Proxmox, KVM, GCP (Google Cloud Platform), 
+- <u>**Développement**</u> : **Python, Django, Java, C++, C, Ada , TypeScript, JavaScript, ReactJS, HTML5, CSS, SQL, PostgreSQL, MongoDB** 
+- <u>**Infrastructure et Cloud**</u> : **Linux/Unix, Git, Docker, Kubernetes (GKE), Ansible, Github actions, Proxmox, KVM, GCP (Google Cloud Platform)**
 
 
 ## Langues 
 
 - Français (courant), Anglais (professionnel), Arabe (bilingue).
+
+## Licenses & certifications
+
+- **Baseline : Infrastructure** <location>Google</location>  
+- **Google Cloud Essentials** <location>Google</location>  
 
 ## Hobbies
 
@@ -60,15 +64,16 @@
 
 ## Éducation
 
-### Institut National des Sciences Appliquées de Toulouse (INSA) <time>Septembre 2020 - Présent</time>
-<location>Toulouse, France</location>  
+### Institut National des Sciences Appliquées de Toulouse (INSA)
+<location>Toulouse, France</location>  <time>Septembre 2020 - Présent</time>
+
 
 - Spécialité **Informatique** et **Réseaux**
 - Vise le parcours TLS-SEC en BAC+5 spécialisé en **Cyber-sécurité**
 - **Distinctions :** Top 10% de ma promotion (2020-2022).
 
-### Lycée Français International Louis Massignon de Casablanca <time>Obtenu en Juin 2020</time>
-<location>Casablanca, Maroc</location>  
+### Lycée Français International Louis Massignon de Casablanca 
+<location>Casablanca, Maroc</location>  <time>Obtenu en Juin 2020</time>
 
 - **Baccalauréat Général, Option Internationale Arabe**, Mention Très Bien
 
@@ -107,9 +112,5 @@
 
 
 
-## Licenses & certifications
-
-- **Baseline : Infrastructure** <location>Google</location>  
-- **Google Cloud Essentials** <location>Google</location>  
 
 </div>

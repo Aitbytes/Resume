@@ -44,9 +44,13 @@ body {
     
 }
 
+.left-column .skill {
+    
+}
+
 
 .left-column li {
-    line-height: 150%;
+    line-height: 170%;
     margin-bottom: 0.5rem
 }
 
@@ -73,11 +77,12 @@ body {
 
 h1 {
     border: none;
-    text-align: center;
     font-weight: bold;
     padding: 0;
     margin: 1rem 0;
-    color: #333;
+    color: #0D47A1;
+    size: 2.0rem;
+    border-bottom: 2px solid black !important;
 }
 
 h2 {
@@ -90,7 +95,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     margin: 5px 0 0 0;
 }
@@ -100,6 +105,7 @@ h4 {
     font-weight: bold;
     margin: 0 0 0.25em 0;
 }
+
 
 p,
 ul {
@@ -114,7 +120,7 @@ ol {
 }
 
 li {
-    line-height: 150%;
+    line-height: 170%;
 }
 
 .info_2 p {
