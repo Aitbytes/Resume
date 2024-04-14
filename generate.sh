@@ -4,15 +4,26 @@
 # and then converts the HTML file to a PDF using Chromium in headless mode.
 
 # Check if the correct number of arguments is provided
-if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <input_markdown_file> <output_pdf_file>"
+if [ "$#" -ne 3 ]; then
+    echo "Usage: $0 <option> <input_markdown_file> <output_pdf_file>"
     exit 1
 fi
 
-input_markdown="$1"
-output_pdf="$2"
+option="$1"
+input_markdown="$2"
+output_pdf="$3"
 output_html="cv.html"
-css_file="source/resume.css"
+
+case "$option" in
+    "fr") css_file="source/fr.css"
+    ;;
+    "en") css_file="source/en.css"
+    ;;
+    *) echo "Wrong option. Use 'fr' or 'en'"
+    ;;
+esac
+
+
 awesome_font_url="/home/a8taleb/Repos/resume/md_resume/markdown-resume/font-awesome-4.7.0/css/font-awesome.css"
 html_file_path="/home/a8taleb/Repos/resume/md_resume/markdown-resume/${output_html}"
 
@@ -23,7 +34,7 @@ if ! pandoc "$input_markdown" --standalone --to html5 -o "$output_html" --css "$
 fi
 
 # Convert HTML to PDF
-if ! chromium --headless --print-to-pdf="$output_pdf" --no-margins "file://${html_file_path}"; then
+if ! chromium --headless --print-to-pdf="$option$output_pdf" --no-margins "file://${html_file_path}"; then
     echo "Error in HTML to PDF conversion"
     exit 1
 fi
