@@ -1,5 +1,9 @@
 
-<div class="left-column"> <span class="name">Mohamed Aittaleb</span>
+<div class="left-column">
+
+<div class="header">
+
+<span class="name">Mohamed Aittaleb</span>
 
 <span class="info">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -25,6 +29,10 @@
  - Ouvert à l'évolution en **alternance** à partir de Septembre.
 
 </div>
+
+</div>
+
+
 
 </div>
 
@@ -113,3 +121,8 @@
 
 
 </div>
+
+
+<script type="text/javascript" src="source/script.js"></script>
+
+
