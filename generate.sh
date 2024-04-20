@@ -27,8 +27,9 @@ esac
 awesome_font_url="/home/a8taleb/Repos/resume/md_resume/markdown-resume/font-awesome-4.7.0/css/font-awesome.css"
 html_file_path="/home/a8taleb/Repos/resume/md_resume/markdown-resume/${output_html}"
 
+
 # Convert Markdown to HTML
-if ! pandoc "$input_markdown" --standalone --to html5 -o "$output_html" --css "$css_file" --css "$awesome_font_url"; then
+if ! pandoc "$input_markdown" --standalone --to html5 -o "$output_html"  --css "$css_file" --css "$awesome_font_url"; then
     echo "Error in Markdown to HTML conversion"
     exit 1
 fi
