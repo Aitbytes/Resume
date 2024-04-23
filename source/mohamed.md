@@ -1,8 +1,10 @@
 
+<div class="content-wrapper">
 <div class="left-column">
 
 <div class="header">
 
+<div class="contact-info">
 <span class="name">Mohamed Aittaleb</span>
 
 <span class="info">
@@ -19,16 +21,15 @@
 <i class="fa fa-github" aria-hidden="true"></i> [Aitbytes](https://github.com/Aitbytes)
 
 <i class="fa fa-phone"></i>+33 7 49 55 93 34 
-
+</div>
+</div>
 <div class="descriptif">
 
-# Recherche un **stage**
+# Recherche
 
- - **De Juin à Septembre 2024 (4 mois). Sur Toulouse**.
- - **Développement**, **DevOps** ou **Cyber-sécurité**.
- - Ouvert à l'évolution en **alternance** à partir de Septembre.
+ - **Stage** de **2-3 mois (Juin-Septembre 2024)**.
+ - Et une **Alternance** pour 2024-2025
 
-</div>
 
 </div>
 
@@ -38,8 +39,9 @@
 
 ## Compétences Techniques
 
-- <u>**Développement**</u> : **Python, Django, Java, C++, C, Ada , TypeScript, JavaScript, ReactJS, HTML5, CSS, SQL, PostgreSQL, MongoDB** 
-- <u>**Infrastructure et Cloud**</u> : **Linux/Unix, Git, Docker, Kubernetes (GKE), Ansible, Github actions, Proxmox, KVM, GCP (Google Cloud Platform)**
+- <u>**Développement**</u> : **Python**, **Java**, C++, **C**, Golang, **Ada** , TypeScript, JavaScript, ReactJS, SQL  
+- <u>**Infrastructure et Cloud**</u> : **Linux/Unix**, Git, **Docker**, Kubernetes, Ansible, Github actions, Proxmox, KVM, GCP (Google Cloud Platform)
+- <u>Réseau, télécom</u> : BGP, OSPF, IPv6, IPv4, SNMP, QoS
 
 
 ## Langues 
@@ -53,8 +55,8 @@
 
 ## Hobbies
 
-- **Activités Physiques** : Passionné de Musculation, Callisthénie, Course à pied et Randonnée.
-- **Art oratoire** : Participé à des cours d'improvisation, et à des concours d'éloquence.
+- Passionné de **Musculation**, **Callisthénie**, Course à pied et **Randonnée**.
+- **Improvisation**, **Éloquence**.
 
 
 
@@ -86,6 +88,8 @@
 - **Baccalauréat Général, Option Internationale Arabe**, Mention Très Bien
 
 ## Projets Académiques et Personnels
+#### Projet "Home Server"
+- Mise en place de conteneurs **docker** pour le déploiement de services web, avec une gestion de la **sécurité** : configuration de **firewalls**, de **proxys** et de **réseaux** virtuels docker.
 
 #### Moutons Fugueurs (en cours)
 - Projet axé sur l'implémentation d'un système **IoT** de géolocalisation du bétail dans un environnement rural : État de l'art, développement sur **Arduino**, intégration de modules **GSM** et **GPS**.
@@ -99,16 +103,18 @@
 #### Projet de Chat Distribué en Java
 - Création d'un système de chat distribué sur un réseau local, en **Java**, avec détection en temps réel des connexions.
 
-#### Projet "Home Server"
-- Mise en place de conteneurs **docker** pour le déploiement de services web, avec une gestion de la **sécurité** : configuration de **firewalls**, de **proxys** et de **réseaux** virtuels docker.
 
 ## Expériences
 
 ### Junior INSA Service, Toulouse, France 
+### Consultant <time>Avril 2024 - Présent</time>
+
+- **Cyber-sécurité** : Rédaction de politiques de sécurité en vue d'une certification ISO 27001
+
 ### Vice-Président <time>Novembre 2023 - Présent</time>
 
 - **Pilotage** : Gestion d'une équipe de 25 étudiants.
-- **Stratégie** : Gestion de la stratégie et du processus d'amélioration continue.
+- **Qualité** : Travail sur l'obtention de la norme ISO 9001.
 - **Communication** : Formation et évaluation des nouveaux membres.
 - **Résolution de conflits** : Traitement des litiges clients, préservation de la structure contre des risques financiers.
 
@@ -120,6 +126,7 @@
 
 
 
+</div>
 </div>
 
 
