@@ -79,7 +79,6 @@
 
 
 - Spécialité **Informatique** et **Réseaux**
-- Vise le parcours TLS-SEC en BAC+5 spécialisé en **Cyber-sécurité**
 - **Distinctions :** Top 10% de ma promotion (2020-2022).
 
 ### Lycée Français International Louis Massignon de Casablanca 
