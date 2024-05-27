@@ -27,8 +27,8 @@
 
 # Recherche
 
- - **Stage** de **2-3 mois (Juin-Septembre 2024)**.
- - Et une **Alternance** pour 2024-2025
+ - **Stage** de **3 à 4 mois** de **Juin jusqu'à fin Septembre 2024**.
+ - Et une **Alternance** d'**un an** **à partir de fin Septembre**
 
 
 </div>
