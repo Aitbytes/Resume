@@ -90,6 +90,9 @@
 #### Projet "Home Server"
 - Mise en place de conteneurs **docker** pour le déploiement de services web, avec une gestion de la **sécurité** : configuration de **firewalls**, de **proxys** et de **réseaux** virtuels docker.
 
+#### Projet de Chat Distribué en Java
+- Création d'un système de chat distribué sur un réseau local, en **Java**, avec détection en temps réel des connexions. Technologies : **MVC**, **Swing**, **Gradle**, **JDBC**
+
 #### Moutons Fugueurs (en cours)
 - Projet axé sur l'implémentation d'un système **IoT** de géolocalisation du bétail dans un environnement rural : État de l'art, développement sur **Arduino**, intégration de modules **GSM** et **GPS**.
 
@@ -99,8 +102,6 @@
 #### API TCP Simulée
 - Développement d'une API **TCP** en **C** pour la gestion de la perte de paquets dans des réseaux bruyants.
 
-#### Projet de Chat Distribué en Java
-- Création d'un système de chat distribué sur un réseau local, en **Java**, avec détection en temps réel des connexions.
 
 
 ## Expériences
