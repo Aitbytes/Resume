@@ -21,6 +21,7 @@
 <i class="fa fa-github" aria-hidden="true"></i> [Aitbytes](https://github.com/Aitbytes)
 
 <i class="fa fa-phone"></i>+33 7 49 55 93 34 
+<i class="fa fa-calendar" aria-hidden="true"></i> agé de **22 ans**
 </div>
 </div>
 <div class="descriptif">
@@ -107,22 +108,22 @@
 ## Expériences
 
 ### Junior INSA Service, Toulouse, France 
-### Consultant <time>Avril 2024 - Présent</time>
 
-- **Cyber-sécurité** : Rédaction de politiques de sécurité en vue d'une certification ISO 27001
+#### Intervenant <time>Avril 2024 - Présent</time>
+- Rédaction de politiques de **cyber-sécurité** dans le contexte d'une certification **ISO 27001**.
 
-### Vice-Président <time>Novembre 2023 - Présent</time>
+#### Vice-Président <time>Novembre 2023 - Présent</time>
 
-- **Pilotage** : Gestion d'une équipe de 25 étudiants.
-- **Qualité** : Travail sur l'obtention de la norme ISO 9001.
-- **Communication** : Formation et évaluation des nouveaux membres.
-- **Résolution de conflits** : Traitement des litiges clients, préservation de la structure contre des risques financiers.
+- Supervisé et dirigé une équipe de 25 étudiants, démontrant un **leadership** **collaboration** et **coopération**.
+- Élaboré et mis en œuvre une **stratégie** efficace faisant preuve d'**innovation** et d'**initiative**.
+- Revitalisé le projet visant l'obtention de la norme  **ISO****9001**
+-  Formé et évalué les nouveaux membres avec  **empathie** et une  **communication** claire et efficace.
+- **Résolution de conflits** : Géré efficacement les litiges clients et préservé la structure contre des risques financiers.
 
-### Directeur commercial <time>Novembre 2022 - Novembre 2023</time>
+#### Chargé d'affaires IT <time>Novembre 2022 - Novembre 2023</time>
 
-- **Gestion de projets** : Management de quatre projets en développement web et mobile, assurant la satisfaction client.
-- **Architecture métier** : Traduction des besoins métier en exigences techniques dans le cadre des propositions commerciales.
-
+- **Gestion de projets** : Dirigé avec succès quatre projets de développement web et mobile, garantissant la **satisfaction** **client** grâce à une **adaptabilité** et un sens de **l'engagement**.
+- **Architecture métier** : Transposé les besoins métier en exigences techniques pour les propositions commerciales, mettant en avant une analyse précise et une **orientation client**.
 
 
 
