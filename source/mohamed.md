@@ -39,9 +39,9 @@
 
 ## Compétences Techniques
 
-- <u>**Développement**</u> : **Python**, **Java**, C++, **C**, Golang, **Ada** , TypeScript, JavaScript, ReactJS, SQL  
-- <u>**Infrastructure et Cloud**</u> : **Linux/Unix**, Git, **Docker**, Kubernetes, Ansible, Github actions, Proxmox, KVM, GCP (Google Cloud Platform)
-- <u>Réseau, télécom</u> : BGP, OSPF, IPv6, IPv4, SNMP, QoS
+- <u>**Développement**</u> : **Python**, **Java**, C++, **C**, **Ada** , TypeScript/JavaScript, HTML, CSS, SQL  
+- <u>**Infrastructure**</u> : **Linux/Unix**, Git, **Docker**
+- <u>**Réseau, télécom**</u> : TCP/IP, MPLS, BGP, OSPF, IPv6, SNMP, QoS, LTE, Lora, Iptables, Wlan, VPN  
 
 
 ## Langues 
