@@ -4,7 +4,7 @@
 
 <div class="header">
 
-<img src="./source/71.jpg" class="profile_pic">
+<img src="./71.jpg" class="profile_pic">
 <div class="contact-info">
 
 <span class="info">
