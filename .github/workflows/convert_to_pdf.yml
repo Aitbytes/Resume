@@ -28,5 +28,53 @@ jobs:
     - name: Upload PDF
       uses: actions/upload-artifact@v3
       with:
-        name: Aittaleb_Mohamed_Resume.
+        name: output-pdf
         path: Aittaleb_Mohamed_Resume.pdf
+
+    - name: Upload HTML as artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: output-html
+        path: Aittaleb_Mohamed_Resume.html
+
+  deploy-pages:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v3
+
+    - name: Deploy HTML to GitHub Pages
+      uses: actions/upload-pages-artifact@v1
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/')
+
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v3
+
+    - name: Download PDF artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: output-pdf
+
+    - name: Download HTML artifact
+      uses: actions/download-artifact@v3
+      with:
+        name: output-html
+
+    - name: Create GitHub Release
+      uses: actions/create-release@v1
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+        files: |
+          output_pdf.pdf
+          cv.html
