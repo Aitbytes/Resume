@@ -24,6 +24,11 @@ jobs:
       run: |
         chmod +x .github/scripts/generate_pdf.sh
         ./.github/scripts/generate_pdf.sh fr ./source/mohamed.md Aittaleb_Mohamed_Resume.pdf
+    - name: Upload generated site
+      uses: actions/upload-artifact@v3
+      with:
+        name: site
+        path: _site/
 
     - name: Upload PDF
       uses: actions/upload-artifact@v3
@@ -31,11 +36,6 @@ jobs:
         name: output-pdf
         path: Aittaleb_Mohamed_Resume.pdf
 
-    - name: Upload HTML as artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: output-html
-        path: Aittaleb_Mohamed_Resume.html
     - name: Debug - List _site directory contents
       run: ls -R _site
   deploy-pages:
@@ -52,28 +52,20 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Debug - List _site directory contents
-        run: ls .
-      - name: Debug - List _site directory contents
-        run: ls -R _site
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: main
-          folder: _site
-      # - name: Deploy to GitHub Pages
-      #   id: deployment
-      #   uses: actions/deploy-pages@v4
-    # runs-on: ubuntu-latest
-    # if: github.ref == 'refs/heads/main'
-    #
-    # steps:
-    # - name: Checkout the code
-    #   uses: actions/checkout@v3
-    #
-    # - name: Deploy HTML to GitHub Pages
-    #   uses: actions/upload-pages-artifact@v1
+    - name: Checkout the code
+      uses: actions/checkout@v3
 
+    - name: Download generated site
+      uses: actions/download-artifact@v3
+      with:
+        name: site
+        path: _site/
+
+    - name: Deploy HTML and PDF to GitHub Pages 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages  # Deploy to the gh-pages branch
+        folder: _site
   release:
     needs: build
     runs-on: ubuntu-latest
