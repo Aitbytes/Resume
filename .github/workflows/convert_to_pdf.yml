@@ -38,16 +38,35 @@ jobs:
         path: Aittaleb_Mohamed_Resume.html
 
   deploy-pages:
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
     needs: build
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-
     steps:
-    - name: Checkout the code
-      uses: actions/checkout@v3
-
-    - name: Deploy HTML to GitHub Pages
-      uses: actions/upload-pages-artifact@v1
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v4
+    # runs-on: ubuntu-latest
+    # if: github.ref == 'refs/heads/main'
+    #
+    # steps:
+    # - name: Checkout the code
+    #   uses: actions/checkout@v3
+    #
+    # - name: Deploy HTML to GitHub Pages
+    #   uses: actions/upload-pages-artifact@v1
 
   release:
     needs: build
