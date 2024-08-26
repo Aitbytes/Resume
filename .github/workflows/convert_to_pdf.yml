@@ -23,7 +23,7 @@ jobs:
     - name: Run conversion script
       run: |
         chmod +x .github/scripts/generate_pdf.sh
-        ./github/scripts/generate_pdf.sh fr ./source/mohamed.md Aittaleb_Mohamed_Resume.pdf
+        ./.github/scripts/generate_pdf.sh fr ./source/mohamed.md Aittaleb_Mohamed_Resume.pdf
 
     - name: Upload PDF
       uses: actions/upload-artifact@v3
