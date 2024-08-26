@@ -63,10 +63,9 @@ jobs:
     - name: Checkout the code
       uses: actions/checkout@v3
 
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
 
   release:
     needs: build
