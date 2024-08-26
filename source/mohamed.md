@@ -81,9 +81,9 @@
 ### Institut National des Sciences Appliquées de Toulouse (INSA)
 <location>Toulouse, France</location>  <time>Septembre 2020 - Présent</time>
 
-
-- Spécialité **Informatique** et **Réseaux**
-- **Distinctions :** Top 10% de ma promotion (2020-2022).
+- Vise le **double diplôme** TLS-SEC :
+- Ingénieur **Informatique** et **Réseaux**
+- **Master** Réseaux de Télécommunication spécialité **Sécurité de Systèmes d'Information et des Réseaux**
 
 ### Lycée Français International Louis Massignon de Casablanca 
 <location>Casablanca, Maroc</location>  <time>Obtenu en Juin 2020</time>
@@ -110,11 +110,11 @@
 ## Expériences
 
 ### Junior INSA Service, Toulouse, France 
-### Consultant <time>Avril 2024 - Présent</time>
+#### Consultant <time>Avril 2024 - Présent</time>
 
 - **Cyber-sécurité** : Rédaction de politiques de sécurité en vue d'une certification ISO 27001
 
-### Vice-Président <time>Novembre 2023 - Présent</time>
+#### Vice-Président <time>Novembre 2023 - Présent</time>
 
 - **Pilotage** : Gestion d'une équipe de 25 étudiants.
 - **Qualité** : Travail sur l'obtention de la norme ISO 9001.

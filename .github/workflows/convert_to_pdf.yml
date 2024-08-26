@@ -1,0 +1,32 @@
+name: Convert Markdown to PDF
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v3
+
+    - name: Install Pandoc
+      run: sudo apt-get install -y pandoc
+
+    - name: Install Chromium
+      run: sudo apt-get install -y chromium-browser
+
+    - name: Run conversion script
+      run: |
+        chmod +x .github/scripts/generate_pdf.sh
+        ./github/scripts/convert_to_pdf.sh mohamed.md fr Aittaleb_Mohamed_Resume.pdf
+
+    - name: Upload PDF
+      uses: actions/upload-artifact@v3
+      with:
+        name: output-pdf
+        path: output_pdf.pdf
