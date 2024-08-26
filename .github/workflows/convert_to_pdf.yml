@@ -52,6 +52,10 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Debug - List _site directory contents
+        run: ls .
+      - name: Debug - List _site directory contents
+        run: ls -R _site
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
