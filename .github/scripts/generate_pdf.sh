@@ -45,7 +45,7 @@ if [[ $option == "en" ]]; then
 fi
 
 # Convert HTML to PDF
-if ! chromium --headless --print-to-pdf="$option$output_pdf" --no-margins "file://${html_file_path}"; then
+if ! chromium --headless --print-to-pdf="$output_pdf" --no-margins "file://${html_file_path}"; then
     echo "Error in HTML to PDF conversion"
     exit 1
 fi

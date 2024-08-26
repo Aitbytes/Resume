@@ -17,8 +17,8 @@ jobs:
     - name: Install Pandoc
       run: sudo apt-get install -y pandoc
 
-    - name: Install Chromium
-      run: sudo apt-get install -y chromium-browser
+    - name: Verify Chromium Installation
+      run: chromium-browser --version
 
     - name: Run conversion script
       run: |
