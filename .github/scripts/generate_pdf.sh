@@ -12,7 +12,7 @@ fi
 option="$1"
 input_markdown="$2"
 output_pdf="$3"
-output_html="Aittaleb_Mohamed_Resume.html"
+output_html="index.html"
 
 case "$option" in
     "fr") css_file="fr.css"

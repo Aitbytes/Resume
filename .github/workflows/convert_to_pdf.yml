@@ -36,7 +36,8 @@ jobs:
       with:
         name: output-html
         path: Aittaleb_Mohamed_Resume.html
-
+    - name: Debug - List _site directory contents
+      run: ls -R _site
   deploy-pages:
     permissions:
       pages: write      # to deploy to Pages
@@ -54,7 +55,8 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: ../_site
+          branch: main
+          folder: _site
       # - name: Deploy to GitHub Pages
       #   id: deployment
       #   uses: actions/deploy-pages@v4
