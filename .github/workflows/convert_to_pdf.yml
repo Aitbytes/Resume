@@ -8,7 +8,9 @@ on:
       - "v*"
   workflow_dispatch:
 permissions:
-  contents: write-all
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
