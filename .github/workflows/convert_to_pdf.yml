@@ -83,10 +83,10 @@ jobs:
       with:
         name: output-pdf
 
-    - name: Download HTML artifact
-      uses: actions/download-artifact@v3
-      with:
-        name: output-html
+    # - name: Download HTML artifact
+    #   uses: actions/download-artifact@v3
+    #   with:
+    #     name: output-html
 
     - name: Create GitHub Release
       uses: actions/create-release@v1
@@ -97,4 +97,3 @@ jobs:
         prerelease: false
         files: |
           output_pdf.pdf
-          cv.html
