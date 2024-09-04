@@ -70,6 +70,8 @@ jobs:
       uses: actions/deploy-pages@v2
 
   release:
+    permissions:
+      contents: write
     needs: build
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/tags/')
