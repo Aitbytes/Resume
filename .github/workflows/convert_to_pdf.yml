@@ -7,6 +7,8 @@ on:
     tags:
       - "v*"
   workflow_dispatch:
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -100,7 +102,7 @@ jobs:
     - name: Upload PDF to Release
       uses: "marvinpinto/action-automatic-releases@latest"
       with:
-          repo_token: "${{ secrets.PAT_TOKEN }}"
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
           prerelease: true
           title: "Current build"
