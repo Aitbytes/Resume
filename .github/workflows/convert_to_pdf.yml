@@ -86,15 +86,15 @@ jobs:
         name: output-pdf
 
     # Create the GitHub Release
-    - name: Create GitHub Release
-      uses: actions/create-release@v1
-      with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
-        draft: false
-        prerelease: false
-      env:
-        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  
+    # - name: Create GitHub Release
+    #   uses: actions/create-release@v1
+    #   with:
+    #     tag_name: ${{ github.ref }}
+    #     release_name: Release ${{ github.ref }}
+    #     draft: false
+    #     prerelease: false
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  
 
     # Upload the PDF to the release
     - name: Upload PDF to Release
