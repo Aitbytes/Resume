@@ -84,6 +84,9 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: output-pdf
+      env:
+      GITHUB_TOKEN: ${{ secrets.RELEASE_PAT }}
+
 
     # Create the GitHub Release
     - name: Create GitHub Release
@@ -94,7 +97,7 @@ jobs:
         draft: false
         prerelease: false
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
+      GITHUB_TOKEN: ${{ secrets.RELEASE_PAT }}
 
     # Upload the PDF to the release
     - name: Upload PDF to Release
@@ -104,3 +107,5 @@ jobs:
         asset_path: Aittaleb_Mohamed_Resume.pdf
         asset_name: output_pdf.pdf
         asset_content_type: application/pdf
+      env:
+      GITHUB_TOKEN: ${{ secrets.RELEASE_PAT }}
