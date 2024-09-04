@@ -1,0 +1,6 @@
+{
+  "exec": "./.github/scripts/generate_pdf.sh fr source/mohamed.md resume.pdf",
+  "watch": ["*.md", "*.css"],
+  "ext": "md,css"
+}
+
