@@ -85,11 +85,7 @@ jobs:
       with:
         name: output-pdf
 
-    # - name: Download HTML artifact
-    #   uses: actions/download-artifact@v3
-    #   with:
-    #     name: output-html
-
+    # Create the GitHub Release
     - name: Create GitHub Release
       uses: actions/create-release@v1
       with:
@@ -97,5 +93,14 @@ jobs:
         release_name: Release ${{ github.ref }}
         draft: false
         prerelease: false
-        files: |
-          output_pdf.pdf
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # Pass the GitHub token
+
+    # Upload the PDF to the release
+    - name: Upload PDF to Release
+      uses: actions/upload-release-asset@v1
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: Aittaleb_Mohamed_Resume.pdf
+        asset_name: output_pdf.pdf
+        asset_content_type: application/pdf
