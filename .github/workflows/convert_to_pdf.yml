@@ -94,7 +94,7 @@ jobs:
         draft: false
         prerelease: false
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # Pass the GitHub token
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
 
     # Upload the PDF to the release
     - name: Upload PDF to Release
