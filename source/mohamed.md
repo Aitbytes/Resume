@@ -57,10 +57,6 @@
 
 
 
-
-
-
-
 </div>
 
 </span>
@@ -81,8 +77,8 @@
 ### Institut National des Sciences Appliquées de Toulouse (INSA)
 <location>Toulouse, France</location>  <time>Septembre 2020 - Présent</time>
 
-- Vise le **double diplôme** TLS-SEC :
-- Ingénieur **Informatique** et **Réseaux**
+- Formation TLS-SEC en cyber-sécurité :
+- Diplôme d'Ingénieur **Informatique** et **Réseaux**
 - **Master** Réseaux de Télécommunication spécialité **Sécurité de Systèmes d'Information et des Réseaux**
 
 ### Lycée Français International Louis Massignon de Casablanca 
@@ -90,24 +86,20 @@
 
 - **Baccalauréat Général, Option Internationale Arabe**, Mention Très Bien
 
-## Projets Académiques et Personnels
-#### Projet "Home Server"
-- Mise en place de conteneurs **docker** pour le déploiement de services web, avec une gestion de la **sécurité** : configuration de **firewalls**, de **proxys** et de **réseaux** virtuels docker.
-
-#### Moutons Fugueurs (en cours)
-- Projet axé sur l'implémentation d'un système **IoT** de géolocalisation du bétail dans un environnement rural : État de l'art, développement sur **Arduino**, intégration de modules **GSM** et **GPS**.
-
-#### Contrôleur Ethernet
-- Conception en **VHDL** d'un contrôleur Ethernet sur **FPGA**
-
-#### API TCP Simulée
-- Développement d'une API **TCP** en **C** pour la gestion de la perte de paquets dans des réseaux bruyants.
-
-#### Projet de Chat Distribué en Java
-- Création d'un système de chat distribué sur un réseau local, en **Java**, avec détection en temps réel des connexions.
 
 
-## Expériences
+
+## Expériences 
+### Samares Engineering, Blagnac, France 
+#### Stage administrateur systéme <time>Juillet - Septembre 2024</time>
+- Analyse des riques et conseil.
+- Provisionnement et sécurisation de serveur linux, configuration de serveur windows.
+- Intégration de solutions de reverse-proxy, VPN maillé, et authentification forward-auth.
+- Dockerisation d'une application métier.
+
+### Confederation Nationale des Junior Entreprises, France 
+#### Auditeur organisationel <time>Juillet 2024 - Présent</time>
+- Audit de la **Stratégie et du pilotage**, du **Développement commercial**, de la **Gestion de projets**, et de la **Gestion des ressources humaines**.
 
 ### Junior INSA Service, Toulouse, France 
 #### Consultant <time>Avril 2024 - Présent</time>
@@ -117,16 +109,28 @@
 #### Vice-Président <time>Novembre 2023 - Présent</time>
 
 - **Pilotage** : Gestion d'une équipe de 25 étudiants.
-- **Qualité** : Travail sur l'obtention de la norme ISO 9001.
+- **Qualité** : Travail sur l'obtention de la norme ISO 9001. Définition des processus
 - **Communication** : Formation et évaluation des nouveaux membres.
 - **Résolution de conflits** : Traitement des litiges clients, préservation de la structure contre des risques financiers.
 
-#### Chargé d'affaires IT <time>Novembre 2022 - Novembre 2023</time>
+#### Responsable développement commercial <time>Novembre 2022 - Novembre 2023</time>
 
 - **Gestion de projets** : Dirigé avec succès quatre projets de développement web et mobile, garantissant la **satisfaction** **client** grâce à une **adaptabilité** et un sens de **l'engagement**.
 - **Architecture métier** : Transposé les besoins métier en exigences techniques pour les propositions commerciales, mettant en avant une analyse précise et une **orientation client**.
 
 
+## Projets Académiques et Personnels
+#### Projet "Home Server"
+- Mise en place de conteneurs **docker** pour le déploiement de services web, avec une gestion de la **sécurité** : configuration de **firewalls**, de **proxys** et de **réseaux** virtuels docker.
+
+#### Contrôleur Ethernet
+- Conception en **VHDL** d'un contrôleur Ethernet sur **FPGA**
+
+#### API TCP Simulée
+- Développement d'une API **TCP** en **C** pour la gestion de la perte de paquets dans des réseaux bruyants.
+
+#### Projet de Chat Distribué en Java
+- Création d'un système de chat distribué sur un réseau local, en **Java**, avec détection en temps réel des connexions.
 
 </div>
 </div>
