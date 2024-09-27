@@ -64,7 +64,7 @@ jobs:
 
     
     - name: Upload to Google Drive
-      run: python scripts/upload_to_drive.py
+      run: python ./.github/scripts/upload_to_drive.py
       env:
         FILE_PATH: "Aittaleb_Mohamed_Resume.pdf"  
         FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
