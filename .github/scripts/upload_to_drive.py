@@ -1,4 +1,5 @@
 import os
+from time import strftime
 import json
 import base64
 from google.oauth2 import service_account
@@ -16,9 +17,11 @@ def upload_to_drive(file_path, folder_id, credentials_b64):
     # Build the Drive service
     service = build('drive', 'v3', credentials=credentials)
 
+    prefix = strftime("%Y%m%d%H%M%S_")
+
     # Prepare the file for upload
     file_metadata = {
-        'name': os.path.basename(file_path),
+        'name': prefix + os.path.basename(file_path),
         'parents': [folder_id]
     }
     media = MediaFileUpload(file_path, resumable=True)
