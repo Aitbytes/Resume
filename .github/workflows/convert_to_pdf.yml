@@ -23,6 +23,15 @@ jobs:
     - name: Install Pandoc
       run: sudo apt-get install -y pandoc
 
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install google-auth google-api-python-client
+
     - name: Verify Chromium Installation
       run: chromium-browser --version
 
@@ -52,14 +61,15 @@ jobs:
 
     - name: Debug - List _site directory contents
       run: ls -R _site
+
     
     - name: Upload to Google Drive
-      uses: adityak74/google-drive-upload-git-action@v0.3
-      with:
-        credentials: ${{ secrets.GOOGLE_CREDENTIALS }}
-        filename: "Aittaleb_Mohamed_Resume.pdf"
-        folderId: ${{ secrets.DRIVE_FOLDER_ID }}
-        overwrite: "true"
+      run: python scripts/upload_to_drive.py
+      env:
+        FILE_PATH: "Aittaleb_Mohamed_Resume.pdf"  
+        FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+        GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+
   deploy-pages:
     permissions:
       pages: write      # to deploy to Pages
