@@ -24,7 +24,7 @@ case "$option" in
 esac
 
 
-awesome_font_url="./font-awesome-4.7.0/css/font-awesome.css"
+awesome_font_url="../font-awesome-4.7.0/css/font-awesome.css"
 html_file_path="_site/${output_html}"
 #conversion_script_path="/home/a8taleb/dev/resume/md_resume/markdown-resume/source/to_english.py"
 #
