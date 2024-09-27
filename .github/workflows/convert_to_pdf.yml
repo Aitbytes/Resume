@@ -52,6 +52,14 @@ jobs:
 
     - name: Debug - List _site directory contents
       run: ls -R _site
+    
+    - name: Upload to Google Drive
+      uses: adityak74/google-drive-upload-git-action@v0.3
+      with:
+        credentials: ${{ secrets.GOOGLE_CREDENTIALS }}
+        filename: "Aittaleb_Mohamed_Resume.pdf"
+        folderId: ${{ secrets.DRIVE_FOLDER_ID }}
+        overwrite: "true"
   deploy-pages:
     permissions:
       pages: write      # to deploy to Pages
@@ -73,22 +81,22 @@ jobs:
       id: deployment
       uses: actions/deploy-pages@v2
 
-  release:
-    permissions:
-      contents: write
-    needs: build
-    runs-on: ubuntu-latest
-    if: startsWith(github.ref, 'refs/tags/')
-
-    steps:
-    - name: Checkout the code
-      uses: actions/checkout@v3
-
-    - name: Download PDF artifact
-      uses: actions/download-artifact@v3
-      with:
-        name: output-pdf
-
+  # release:
+  #   permissions:
+  #     contents: write
+  #   needs: build
+  #   runs-on: ubuntu-latest
+  #   if: startsWith(github.ref, 'refs/tags/')
+  #
+  #   steps:
+  #   - name: Checkout the code
+  #     uses: actions/checkout@v3
+  #
+  #   - name: Download PDF artifact
+  #     uses: actions/download-artifact@v3
+  #     with:
+  #       name: output-pdf
+  #
     # Create the GitHub Release
     # - name: Create GitHub Release
     #   uses: actions/create-release@v1
