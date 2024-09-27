@@ -30,7 +30,7 @@ body {
     padding: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 14px;
-    width: 210mm;
+    /* width: 210mm; */
 }
 
 .left-column {
@@ -40,7 +40,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    width: 34%;
+    width: 33%;
     color: white;
 
 }
@@ -53,6 +53,7 @@ body {
 .left-column li {
     line-height: 170%;
     margin-bottom: 0.5rem;
+    font-size: 95%;
 }
 .left-column h2 {
     color: white;
@@ -84,7 +85,7 @@ span.name {
 }
 .main-content li {
     line-height: 140%;
-    font-size: 90%;
+    font-size: 85%;
 }
 
 .content-wrapper {
@@ -130,7 +131,7 @@ h2 {
 h3 {
     font-size: 1.2em;
     font-weight: bold;
-    margin: 5px 0 0 0;
+    margin: 0 0 0 0;
 }
 
 h4 {
@@ -184,7 +185,7 @@ code {
 
 time {
     float: right;
-    font-size: inherit;
+    font-size: 95%;
     font-weight: bold;
 }
 
