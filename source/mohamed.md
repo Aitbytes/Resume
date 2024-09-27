@@ -10,7 +10,7 @@
 <span class="info">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-<span class="name">Mohamed Aittaleb</span>
+<span class="name">Mohamed Ait taleb</span>
 
 <div class="info_2">
 <i class="fa fa-envelope-o" aria-hidden="true"></i> [aittaleb@insa-toulouse.fr](mailto:aittaleb@insa-toulouse.fr) 
