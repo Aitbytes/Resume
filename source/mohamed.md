@@ -36,9 +36,8 @@
 
 ## Compétences Techniques
 
-- <u>**Réseau, télécom**</u> : TCP/IP, MPLS, BGP, OSPF, IPv6, SNMP, QoS, LTE, Lora, Iptables, Wlan, VPN  
-- <u>**Développement**</u> : **Python**, **Java**, C++, **C**, **nodeJS**, **Ada** , TypeScript/JavaScript, HTML, CSS, SQL 
-- <u>**Infrastructure**</u> : **Linux/Unix**, Git, **Docker**, TCP/IP, CI/CD
+- <u>**Infrastructure**</u> : **Linux/Unix**, Git, **Docker**, Ansible, Terraform, Github actions
+- <u>**Développement**</u> : **Python**, **Java**, C++, **C**, **Ada** , TypeScript/JavaScript, HTML, CSS, SQL 
 
 
 ## Langues 
