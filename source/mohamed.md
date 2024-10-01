@@ -8,7 +8,6 @@
 <div class="contact-info">
 
 <span class="info">
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
 <span class="name">Mohamed Ait taleb</span>
 
@@ -36,9 +35,12 @@
 
 ## Compétences Techniques
 
-- <u>**Infrastructure**</u> : **Linux/Unix**, Git, **Docker**, Ansible, Terraform, Github actions
-- <u>**Développement**</u> : **Python**, **Java**, C++, **C**, **Ada** , TypeScript/JavaScript, HTML, CSS, SQL 
+- <u>**Infrastructure**</u> :<span class="mastered">Linux/Unix, Git, Docker</span>, <span class="ammateur">Github actions</span>, <span class="familiar">Ansible, Terraform, GCP</span> 
+- <u>**Développement**</u> : <span class="mastered">Python, C, TypeScript/JavaScript, HTML, CSS, SQL</span>,<span class="ammateur">Java, Ada</span> ,<span class="familiar">C++</span>  
 
+- <div class="mastered"><i class="fa fa-square" aria-hidden="true"></i>  &gt;3 ans de pratique</div>
+- <div class="ammateur"><i class="fa fa-square" aria-hidden="true"></i> 1-3 ans de pratique</div>
+- <div class="familiar"><i class="fa fa-square" aria-hidden="true"></i> &lt;1 an de pratique</div>
 
 ## Langues 
 
