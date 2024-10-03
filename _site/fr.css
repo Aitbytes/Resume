@@ -33,6 +33,10 @@ body {
     /* width: 210mm; */
 }
 
+.legende {
+    font-size: 80%;
+}
+
 .mastered {
     color : #71A9F7;
     font-weight: bold;
