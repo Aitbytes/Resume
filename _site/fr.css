@@ -33,10 +33,26 @@ body {
     /* width: 210mm; */
 }
 
+.mastered {
+    color : #71A9F7;
+    font-weight: bold;
+}
+
+.ammateur {
+    color: #F374AE;
+    font-weight: bold;
+
+}
+
+.familiar {
+    color: #F17105;
+    font-weight: bold;
+}
+
 .left-column {
     /* Style for the left column */
     padding: 20px; /* Adjust the padding as needed */
-    background-color: #0D47A1; /* Set the background color for the left column */
+    background-color: #0A397F; /* Set the background color for the left column */
     height: 100vh;
     display: flex;
     flex-direction: column;

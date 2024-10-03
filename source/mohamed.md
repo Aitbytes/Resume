@@ -8,7 +8,6 @@
 <div class="contact-info">
 
 <span class="info">
-
 <span class="name">Mohamed Ait taleb</span>
 
 <div class="info_2">
@@ -45,11 +44,6 @@
 ## Langues 
 
 - Français (courant), Anglais (professionnel), Arabe (bilingue).
-
-## Licenses & certifications
-
-- **Baseline : Infrastructure** <location>Google</location>  
-- **Google Cloud Essentials** <location>Google</location>  
 
 ## Hobbies
 
@@ -121,11 +115,12 @@
 
 
 ## Projets Académiques et Personnels
-#### Projet "Home Server"
-- Mise en place de conteneurs **docker** pour le déploiement de services web, avec une gestion de la **sécurité** : configuration de **firewalls**, de **proxys** et de **réseaux** virtuels docker.
+#### Projet Qualité de Service
+- Implémentation d'un réseau opérateur utilisant la technologie MPLS, garantissant une isolation complète des clients et assurant la gestion de la qualité de service.
 
-#### Contrôleur Ethernet
-- Conception en **VHDL** d'un contrôleur Ethernet sur **FPGA**
+#### Projet "Home Server"
+- Déploiement de services web à usage personel dans des conteneurs **docker**, avec une gestion de la **sécurité** : configuration de **firewalls**, de **reverse-proxys** et de l'accès via un **réseau** privé virtuel basé sur **Wiregard**.
+
 
 #### API TCP Simulée
 - Développement d'une API **TCP** en **C** pour la gestion de la perte de paquets dans des réseaux bruyants.
