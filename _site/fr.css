@@ -100,12 +100,14 @@ span.name {
 }
 
 .sous-intitule{
-    text-align: center;
+    text-align: justify;
     display: block;
+    line-height: 150%;
+    font-size: 100%;
 }
 .main-content li {
     line-height: 140%;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 .content-wrapper {

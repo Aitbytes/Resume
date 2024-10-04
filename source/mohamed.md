@@ -37,15 +37,17 @@
 - <u>**Infrastructure**</u> :<span class="mastered">Linux/Unix, Git, Docker</span>, <span class="ammateur">Github actions</span>, <span class="familiar">Ansible, Terraform, GCP</span> 
 - <u>**Développement**</u> : <span class="mastered">Python, C, TypeScript/JavaScript, HTML, CSS, SQL</span>,<span class="ammateur">Java, Ada</span> ,<span class="familiar">C++</span>  
 
+<div class="legend">
 - <div class="mastered"><i class="fa fa-square" aria-hidden="true"></i>  &gt;3 ans de pratique</div>
 - <div class="ammateur"><i class="fa fa-square" aria-hidden="true"></i> 1-3 ans de pratique</div>
 - <div class="familiar"><i class="fa fa-square" aria-hidden="true"></i> &lt;1 an de pratique</div>
+</div>
 
 ## Langues 
 
-- Français (courant), Anglais (professionnel), Arabe (bilingue).
+- **Français** (courant), **Anglais** (professionnel), **Arabe** (bilingue).
 
-## Hobbies
+## Centres d'intérêt
 
 - Passionné de **Musculation**, **Callisthénie**, Course à pied et **Randonnée**.
 - **Improvisation**, **Éloquence**.
@@ -59,7 +61,8 @@
 <div class="main-content">
 
  <span class="intitule">ÉTUDIANT INGÉNIEUR INSA Toulouse</span>
- <span class="sous-intitule">Recherche **Stage** de **fin d'études** à partir de **Mars 2025**</span>
+ <span class="sous-intitule">En **5e année** (équivalent M2), spécialisé en **Cyber-sécurité**. Recherche **Stage de fin d'études** à partir du **17 Mars 2025** en **InfraSec, CloudSec ou AppSec** </span>
+ <span class="sous-intitule"></span>
 <!-- <div class="descriptif"> -->
 <!---->
 <!-- # Recherche -->
@@ -67,19 +70,19 @@
 <!---->
 <!-- </div> -->
 
-## Éducation
+## Formation
 
-### Institut National des Sciences Appliquées de Toulouse (INSA)
+### INSA Toulouse 
 <location>Toulouse, France</location>  <time>Septembre 2020 - Présent</time>
 
-- Formation TLS-SEC en cyber-sécurité :
+- Formation **Double-diplôme** TLS-SEC en cyber-sécurité :
 - Diplôme d'Ingénieur **Informatique** et **Réseaux**
 - **Master** Réseaux de Télécommunication spécialité **Sécurité de Systèmes d'Information et des Réseaux**
 
 ### Lycée Français International Louis Massignon de Casablanca 
 <location>Casablanca, Maroc</location>  <time>Obtenu en Juin 2020</time>
 
-- **Baccalauréat Général, Option Internationale Arabe**, Mention Très Bien
+- **Baccalauréat Général**, Mention Très Bien
 
 
 
@@ -87,14 +90,19 @@
 ## Expériences 
 ### Samares Engineering, Blagnac, France 
 #### Stage administrateur systéme <time>Juillet - Septembre 2024</time>
-- Analyse des riques et conseil.
-- Provisionnement et sécurisation de serveur linux, configuration de serveur windows.
-- Intégration de solutions de reverse-proxy, VPN maillé, et authentification forward-auth.
-- Dockerisation d'une application métier.
+- **État des lieux**, Analyse des **riques**, et **conseil de remédiation**.
+- Sécurisation de l'accès aux applications via **HTTPS** grace à un reverse proxy Traefik 
+- Mise en place d'une **authentification centralisée** avec **Azure Entra ID**.
+- Amélioration de la **fiabilité** et la **disponibilité** d'applications métier.
+
+----------
+
 
 ### Confederation Nationale des Junior Entreprises, France 
 #### Auditeur organisationel <time>Juillet 2024 - Présent</time>
-- Audit de la **Stratégie et du pilotage**, du **Développement commercial**, de la **Gestion de projets**, et de la **Gestion des ressources humaines**.
+- Audit de la Stratégie, du pilotage, du Développement commercial, de la Gestion de projets, et de la Gestion des ressources humaines.
+
+----------
 
 ### Junior INSA Service, Toulouse, France 
 #### Consultant <time>Avril 2024 - Présent</time>
@@ -104,29 +112,27 @@
 #### Vice-Président <time>Novembre 2023 - Présent</time>
 
 - **Pilotage** : Gestion d'une équipe de 25 étudiants.
-- **Qualité** : Travail sur l'obtention de la norme ISO 9001. Définition des processus
+- **Qualité** : Définition de processus et d'indicateurs pour l'obtention de la norme ISO 9001.
 - **Communication** : Formation et évaluation des nouveaux membres.
 - **Résolution de conflits** : Traitement des litiges clients, préservation de la structure contre des risques financiers.
 
 #### Responsable développement commercial <time>Novembre 2022 - Novembre 2023</time>
 
-- **Gestion de projets** : Dirigé avec succès quatre projets de développement web et mobile, garantissant la **satisfaction** **client** grâce à une **adaptabilité** et un sens de **l'engagement**.
-- **Architecture métier** : Transposé les besoins métier en exigences techniques pour les propositions commerciales, mettant en avant une analyse précise et une **orientation client**.
+- **Gestion de projets** : Pilôté avec succès quatres projets de développement web et mobile, garantissant la satisfaction client grâce à une adaptabilité et un sens de l'engagement.
+- **Force de proposition technique** : Proposition de solutions techniques pour répondre aux besoins clients dans les propositions commerciales..
 
 
 ## Projets Académiques et Personnels
-#### Projet Qualité de Service
-- Implémentation d'un réseau opérateur utilisant la technologie MPLS, garantissant une isolation complète des clients et assurant la gestion de la qualité de service.
+
+#### Moutons Fugueurs 
+- Tentatice d'implémentation d'un système **IoT** de géolocalisation du bétail dans un environnement rural : État de l'art, développement sur **Arduino**, intégration de modules **GSM** et **GPS**.
+
+#### Projet Qualité de Service dans les réseaux
+- Implémentation d'un réseau opérateur utilisant la technologie **MPLS**, garantissant une isolation complète des clients et assurant la gestion de la **qualité de service**.
 
 #### Projet "Home Server"
 - Déploiement de services web à usage personel dans des conteneurs **docker**, avec une gestion de la **sécurité** : configuration de **firewalls**, de **reverse-proxys** et de l'accès via un **réseau** privé virtuel basé sur **Wiregard**.
 
-
-#### API TCP Simulée
-- Développement d'une API **TCP** en **C** pour la gestion de la perte de paquets dans des réseaux bruyants.
-
-#### Projet de Chat Distribué en Java
-- Création d'un système de chat distribué sur un réseau local, en **Java**, avec détection en temps réel des connexions.
 
 </div>
 </div>
