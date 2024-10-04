@@ -112,12 +112,11 @@ span.name {
     display: block;
     line-height: 150%;
     font-size: 100%;
-    
     /* background: var(--blue); */
     font-weight: bold;
-    border : 2px solid var(--darkblue) ;
-    padding: 4px;
-    border-radius: 2px;
+    border-top : 2px solid var(--darkblue) ; 
+    /* padding: 4px; */
+    /* border-radius: 2px; */
     font-style: italic;
 }
 .main-content li {
