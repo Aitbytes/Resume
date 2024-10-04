@@ -61,8 +61,7 @@
 <div class="main-content">
 
  <span class="intitule">ÉTUDIANT INGÉNIEUR INSA Toulouse</span>
- <span class="sous-intitule">En **5e année** (équivalent M2), spécialisé en **Cyber-sécurité**. Recherche **Stage de fin d'études** à partir du **17 Mars 2025** en **InfraSec, CloudSec ou AppSec** </span>
- <span class="sous-intitule"></span>
+ <span class="sous-intitule">**5e année** (équivalent M2), formation TLS-SEC spécialisée en **Cyber-sécurité**. Recherche **Stage de fin d'études** à partir du **17 Mars 2025** en InfraSec, CloudSec ou AppSec </span>
 <!-- <div class="descriptif"> -->
 <!---->
 <!-- # Recherche -->
