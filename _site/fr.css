@@ -5,6 +5,7 @@
     --darkblue:#0A397F;
 }
 
+
 html {
     padding: 0;
     margin: 0;
@@ -107,10 +108,17 @@ span.name {
 }
 
 .sous-intitule{
-    text-align: justify;
+    text-align: center;
     display: block;
     line-height: 150%;
     font-size: 100%;
+    
+    /* background: var(--blue); */
+    font-weight: bold;
+    border : 2px solid var(--darkblue) ;
+    padding: 4px;
+    border-radius: 2px;
+    font-style: italic;
 }
 .main-content li {
     line-height: 140%;
