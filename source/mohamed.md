@@ -23,7 +23,7 @@
 
 <i class="fa fa-calendar" aria-hidden="true"></i> agé de **22 ans**
 
-<i class="fa fa-home" aria-hidden="true"></i> 7 allée des sciences appliquées, 31400 Toulouse
+<i class="fa fa-home" aria-hidden="true"></i> 31400 Toulouse
 
 </div>
 </div>
