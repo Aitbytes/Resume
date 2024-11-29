@@ -61,7 +61,7 @@
 <div class="main-content">
 
  <span class="intitule">ÉTUDIANT INGÉNIEUR INSA Toulouse</span>
- <span class="sous-intitule">**5e année** (équivalent M2), formation TLS-SEC spécialisée en **Cyber-sécurité**. Recherche **Stage de fin d'études** à partir du **17 Mars 2025** en InfraSec, CloudSec ou GRC </span>
+ <span class="sous-intitule">**5e année** (équivalent M2), formation TLS-SEC spécialisée en **Cyber-sécurité**. Recherche **Stage de fin d'études** à partir du **17 Mars 2025** en Cybersécurité ou DevSecOps </span>
 <!-- <div class="descriptif"> -->
 <!---->
 <!-- # Recherche -->
@@ -110,7 +110,7 @@
 
 #### Vice-Président <time>Novembre 2023 - Présent</time>
 
-- **Pilotage** : Gestion d'une équipe de 25 étudiants.
+- **Pilotage** : Gestion d'une équipe de 25 étudiants avec autonomie et rigeur.
 - **Qualité** : Définition de processus et d'indicateurs pour l'obtention de la norme ISO 9001.
 - **Communication** : Formation et évaluation des nouveaux membres.
 - **Résolution de conflits** : Traitement des litiges clients, préservation de la structure contre des risques financiers.
