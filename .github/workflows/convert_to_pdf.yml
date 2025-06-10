@@ -45,7 +45,7 @@ jobs:
         ./.github/scripts/generate_pdf.sh fr ./source/mohamed.md Aittaleb_Mohamed_Resume.pdf
 
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v2
+      uses: actions/upload-pages-artifact@v3
 
     - name: Upload generated site
       uses: actions/upload-artifact@v4
