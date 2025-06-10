@@ -128,11 +128,7 @@
 
 ## Projets Académiques et Personnels
 
-#### Moutons Fugueurs 
-- Tentatice d'implémentation d'un système **IoT** de géolocalisation du bétail dans un environnement rural : État de l'art, développement sur **Arduino**, intégration de modules **GSM** et **GPS**.
 
-#### Projet Qualité de Service dans les réseaux
-- Implémentation d'un réseau opérateur utilisant la technologie **MPLS**, garantissant une isolation complète des clients et assurant la gestion de la **qualité de service**.
 
 #### Projet "Home Server"
 - Déploiement de services web à usage personel dans des conteneurs **docker**, avec une gestion de la **sécurité** : configuration de **firewalls**, de **reverse-proxys** et de l'accès via un **réseau** privé virtuel basé sur **Wiregard**.
