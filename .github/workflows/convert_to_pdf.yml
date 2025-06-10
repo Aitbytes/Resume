@@ -2,10 +2,6 @@ name: Convert Markdown to PDF
 
 on:
   push:
-    branches:
-      - main
-    tags:
-      - "v*"
   workflow_dispatch:
 permissions:
   contents: write
@@ -63,10 +59,15 @@ jobs:
       run: ls -R _site
 
     
+    - name: Get branch name
+      id: branch-name
+      run: echo "branch=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
+
     - name: Upload to Google Drive
       run: python ./.github/scripts/upload_to_drive.py
       env:
-        FILE_PATH: "Aittaleb_Mohamed_Resume.pdf"  
+        FILE_PATH: "Aittaleb_Mohamed_Resume.pdf"
+        DRIVE_FILE_NAME: "${{ steps.branch-name.outputs.branch }}_Aittaleb_Mohamed_Resume.pdf"
         FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
         GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
 
