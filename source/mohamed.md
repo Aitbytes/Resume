@@ -34,8 +34,9 @@
 
 ## Compétences Techniques
 
-- <u>**Infrastructure**</u> :<span class="mastered"> Kubernetes, Docker, Terraform, Datadog, Linux, Git</span>, <span class="ammateur">Github actions</span>, <span class="familiar">Ansible, GCP</span> 
-- <u>**Développement**</u> : <span class="mastered">Python, C, TypeScript/JavaScript</span>  
+- <u>**Infrastructure**</u> :<span class="mastered"> Kubernetes, Docker, Terraform, Datadog, Linux, Git</span>, <span class="ammateur">Github actions</span>, <span class="familiar">Azure, GCP, Ansible</span> 
+- <u>**Sécurité & IAM**</u> <div class="ammateur">Azure Entra ID, OAuth/OIDC, LDAP, Politiques de sécurité</span>
+- <u>**Développement**</u> : <span class="mastered">Python, Shell scripting, C, TypeScript/JavaScript</span>,<span class="familiar">Jira, ServiceNow</span>
 
 <div class="legend">
 - <div class="mastered"><i class="fa fa-square" aria-hidden="true"></i>  &gt;3 ans de pratique, ou certification</div>
@@ -49,7 +50,7 @@
 
 ## Langues 
 
-- **Français** (courant), **Anglais** (professionnel), **Arabe** (bilingue).
+- **Français** (courant), **Anglais** (Cambridge C1), **Arabe** (bilingue).
 
 
 ## Centres d'intérêt
@@ -65,8 +66,8 @@
 
 <div class="main-content">
 
- <span class="intitule">ÉTUDIANT INGÉNIEUR INSA Toulouse</span>
- <span class="sous-intitule">**Consultant SecDevOps** en stage de fin d'études (équivalent M2). Recherche **CDI** à partir d'**octobre 2025** en DevOps, Infrastructure, ou SecDevOps </span>
+ <span class="intitule">ÉTUDIANT INGÉNIEUR CYBER-SÉCURITÉ</span>
+ <span class="sous-intitule">**Consultant Cyber-sécurité et DevOps** en stage de fin d'études (équivalent M2). Disponible en **CDI** à partir d'**octobre 2025** </span>
 <!-- <div class="descriptif"> -->
 <!---->
 <!-- # Recherche -->
@@ -98,8 +99,8 @@
 ### <img src="./samares.jpg" class="logo-entreprise"> Samares Engineering, Blagnac, France 
 #### Stage administrateur systéme <time>Juillet - Septembre 2024</time>
 - **État des lieux**, Analyse des **risques**, et **conseil de remédiation**.
+- Mise en place de l'**authentification fédérée** avec protocole **OAuth/OIDC**.
 - Sécurisation de l'accès aux applications via **HTTPS** grâce à un reverse proxy Traefik 
-- Mise en place d'une **authentification centralisée** avec **Azure Entra ID**.
 - Amélioration de la **fiabilité** et la **disponibilité** d'applications métier.
 
 ----------
