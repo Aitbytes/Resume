@@ -5,6 +5,15 @@
     --darkblue:#0A397F;
 }
 
+.logo {
+    height: 18px;
+    transform: translateY(4px);
+}
+.logo-entreprise {
+    
+    height: 18px;
+    transform: translateY(4px);
+}
 
 html {
     padding: 0;
@@ -220,6 +229,11 @@ code {
 }
 
 time {
+    float: right;
+    font-size: 95%;
+    font-weight: bold;
+}
+timesmall {
     float: right;
     font-size: 95%;
     font-weight: bold;
