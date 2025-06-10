@@ -34,8 +34,8 @@
 
 ## Compétences Techniques
 
-- <u>**Infrastructure**</u> :<span class="mastered">Linux/Unix, Git, Docker</span>, <span class="ammateur">Github actions</span>, <span class="familiar">Ansible, Terraform, GCP</span> 
-- <u>**Développement**</u> : <span class="mastered">Python, C, TypeScript/JavaScript, HTML, CSS, SQL</span>,<span class="ammateur">Java, Ada</span> ,<span class="familiar">C++</span>  
+- <u>**Infrastructure**</u> :<span class="mastered"> Kubernetes, Docker, Terraform, Datadog, Linux, Git</span>, <span class="ammateur">Github actions</span>, <span class="familiar">Ansible, GCP</span> 
+- <u>**Développement**</u> : <span class="mastered">Python, C, TypeScript/JavaScript</span>  
 
 <div class="legend">
 - <div class="mastered"><i class="fa fa-square" aria-hidden="true"></i>  &gt;3 ans de pratique</div>
