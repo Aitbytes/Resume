@@ -103,9 +103,9 @@
 ----------
 
 
-### Confederation Nationale des Junior Entreprises, France 
-#### Auditeur organisationel <time>Juillet 2024 - Présent</time>
-- Audit de la Stratégie, du pilotage, du Développement commercial, de la Gestion de projets, et de la Gestion des ressources humaines.
+### <img src="./JE.jpg" class="logo-entreprise" > Confederation Nationale des Junior Entreprises, France 
+#### Auditeur organisationnel <time>Juillet 2024 - Présent</time>
+- Audit et évaluation de la conformité des Junior-Entreprises à la norme nationale à travers l'analyse des processus de Stratégie & pilotage, de Développement commercial, de Gestion de projet, et de Gestion des ressources humaines.
 
 ----------
 
