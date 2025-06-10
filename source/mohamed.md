@@ -75,12 +75,12 @@
 
 ## Formation
 
-### INSA Toulouse 
+### <img src="./logo_insa.jpg" class="logo"> INSA Toulouse 
 <location>Toulouse, France</location>  <time>Septembre 2020 - Présent</time>
 
-- Formation **Double-diplôme** TLS-SEC en cyber-sécurité :
-- Diplôme d'Ingénieur **Informatique** et **Réseaux**
-- **Master** Réseaux de Télécommunication spécialité **Sécurité de Systèmes d'Information et des Réseaux**
+- Diplôme d'Ingénieur **Informatique** et **Réseaux** prévu pour **Octobre 2025**
+- <img src="./tls-sec.jpg" class="logo"> <img src="./n7.jpg" class="logo"> Spécialité **TLS-SEC** en cyber-sécurité en échange avec l'**INP ENSEEIHT**
+- <img src="./pastille-UT.jpg" class="logo"> **Double-diplôme** : **Master** Réseaux de Télécommunication spécialité **Sécurité de Systèmes d'Information et des Réseaux** à l'**Université de Toulouse** 
 
 ### Lycée Français International Louis Massignon de Casablanca 
 <location>Casablanca, Maroc</location>  <time>Obtenu en Juin 2020</time>
