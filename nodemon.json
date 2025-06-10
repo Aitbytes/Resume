@@ -1,5 +1,5 @@
 {
-  "exec": "./.github/scripts/generate_pdf.sh fr source/mohamed.md resume.pdf && firefox resume.pdf",
+  "exec": "./.github/scripts/generate_pdf.sh fr source/mohamed.md resume.pdf && librewolf resume.pdf",
   "watch": ["*.md", "*.css"],
   "ext": "md,css"
 }
