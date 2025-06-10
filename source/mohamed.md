@@ -43,6 +43,10 @@
 - <div class="familiar"><i class="fa fa-square" aria-hidden="true"></i> &lt;1 an de pratique</div>
 </div>
 
+## Certifications
+- <img src="./hashicorp_logo.jpg" class="logo"> HashiCorp Certified: Terraform Associate (003)
+- <img src="./datadog_logo.jpg" class="logo"> Datadog Certified: Datadog Fundamentals
+
 ## Langues 
 
 - **Français** (courant), **Anglais** (professionnel), **Arabe** (bilingue).
