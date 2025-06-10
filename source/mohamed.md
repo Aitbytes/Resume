@@ -51,6 +51,7 @@
 
 - **Français** (courant), **Anglais** (professionnel), **Arabe** (bilingue).
 
+
 ## Centres d'intérêt
 
 - Passionné de **Musculation**, **Callisthénie**, Course à pied et **Randonnée**.
@@ -76,6 +77,7 @@
 ## Formation
 
 ### <img src="./logo_insa.jpg" class="logo"> INSA Toulouse 
+
 <location>Toulouse, France</location>  <time>Septembre 2020 - Présent</time>
 
 - Diplôme d'Ingénieur **Informatique** et **Réseaux** prévu pour **Octobre 2025**
@@ -107,7 +109,6 @@
 #### Auditeur organisationnel <time>Juillet 2024 - Présent</time>
 - Audit et évaluation de la conformité des Junior-Entreprises à la norme nationale à travers l'analyse des processus de Stratégie & pilotage, de Développement commercial, de Gestion de projet, et de Gestion des ressources humaines.
 
-----------
 
 ### <img src="./JIS.jpg" style="height: 22px" class="logo-entreprise"> Junior INSA Service, Toulouse, France 
 #### Consultant 
@@ -122,12 +123,10 @@
 - **Qualité** : Mise en place et pilotage de processus par les indicateurs.
 - **Communication** : Formation et évaluation des nouveaux membres.
 - **Résolution de conflits** : Traitement des litiges clients, préservation de la structure contre des risques financiers.
-
 - **Gestion de projets multiples** : Piloté avec succès huit projets de développement web et mobile, IA, cybersécurité, garantissant la satisfaction client grâce à une adaptabilité et un sens de l'engagement.
 
 
 ## Projets Académiques et Personnels
-
 
 
 #### Projet "Home Server"
