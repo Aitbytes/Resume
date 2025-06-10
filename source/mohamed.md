@@ -38,7 +38,7 @@
 - <u>**Développement**</u> : <span class="mastered">Python, C, TypeScript/JavaScript</span>  
 
 <div class="legend">
-- <div class="mastered"><i class="fa fa-square" aria-hidden="true"></i>  &gt;3 ans de pratique</div>
+- <div class="mastered"><i class="fa fa-square" aria-hidden="true"></i>  &gt;3 ans de pratique, ou certification</div>
 - <div class="ammateur"><i class="fa fa-square" aria-hidden="true"></i> 1-3 ans de pratique</div>
 - <div class="familiar"><i class="fa fa-square" aria-hidden="true"></i> &lt;1 an de pratique</div>
 </div>
