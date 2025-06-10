@@ -109,8 +109,8 @@
 
 ----------
 
-### Junior INSA Service, Toulouse, France 
-#### Consultant <time>Avril 2024</time>
+### <img src="./JIS.jpg" style="height: 22px" class="logo-entreprise"> Junior INSA Service, Toulouse, France 
+#### Consultant 
 
 - **Cyber-sécurité** : Rédaction de politiques de sécurité en vue d'une certification ISO 27001
 
