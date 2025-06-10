@@ -112,7 +112,7 @@
 ### <img src="./JIS.jpg" style="height: 22px" class="logo-entreprise"> Junior INSA Service, Toulouse, France 
 #### Consultant 
 
-- **Cyber-sécurité** : Rédaction de politiques de sécurité en vue d'une certification ISO 27001
+- **GenIA** : Programmation d'un système de classification de fichiers par LLM améliorant significativement l'efficacité opérationelle du client <timesmall>Juin 2025</timesmall>
 
 #### Vice-Président <time>Novembre 2023 - Présent</time>
 
