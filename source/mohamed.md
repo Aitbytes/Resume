@@ -114,17 +114,16 @@
 
 - **GenIA** : Programmation d'un système de classification de fichiers par LLM améliorant significativement l'efficacité opérationelle du client <timesmall>Juin 2025</timesmall>
 
-#### Vice-Président <time>Novembre 2023 - Présent</time>
+- **Cyber-sécurité** : Rédaction de politiques de sécurité en vue d'une certification ISO 27001 <timesmall>Avril 2024</timesmall>
+
+#### Vice-Président, Responsable commercial  <time>Novembre 2022 - Janvier 2025</time>
 
 - **Pilotage** : Gestion d'une équipe de 25 étudiants avec autonomie et rigeur.
-- **Qualité** : Définition de processus et d'indicateurs pour l'obtention de la norme ISO 9001.
+- **Qualité** : Mise en place et pilotage de processus par les indicateurs.
 - **Communication** : Formation et évaluation des nouveaux membres.
 - **Résolution de conflits** : Traitement des litiges clients, préservation de la structure contre des risques financiers.
 
-#### Responsable développement commercial <time>Novembre 2022 - Novembre 2023</time>
-
-- **Gestion de projets** : Pilôté avec succès quatres projets de développement web et mobile, garantissant la satisfaction client grâce à une adaptabilité et un sens de l'engagement.
-- **Force de proposition technique** : Proposition de solutions techniques pour répondre aux besoins clients dans les propositions commerciales..
+- **Gestion de projets multiples** : Piloté avec succès huit projets de développement web et mobile, IA, cybersécurité, garantissant la satisfaction client grâce à une adaptabilité et un sens de l'engagement.
 
 
 ## Projets Académiques et Personnels
