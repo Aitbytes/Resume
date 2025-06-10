@@ -88,7 +88,11 @@
 
 
 ## Expériences 
-### Samares Engineering, Blagnac, France 
+### <img src="./devoteam.jpg" class="logo-entreprise"> Devoteam, Toulouse, France 
+#### Stage SecDevOps <time>Mars - Septembre 2025</time>
+- Contribution à la **protection des données à caractère personnels** au sein d'une entreprise du **CAC 40** via la gestion du consentement aux cookies.
+- Mise en oeuvre d'un démonstrateur d'usine logicielle permettant le déploiement **automatisé** d'une infrastructure sur plateforme **On-premise, hybride ou multicloud**. 
+
 #### Stage administrateur systéme <time>Juillet - Septembre 2024</time>
 - **État des lieux**, Analyse des **riques**, et **conseil de remédiation**.
 - Sécurisation de l'accès aux applications via **HTTPS** grace à un reverse proxy Traefik 
