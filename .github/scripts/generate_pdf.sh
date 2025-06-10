@@ -61,7 +61,7 @@ fi
 html_file_uri=file://$(pwd)/${html_file_path}
 
 # Convert HTML to PDF
-if ! chromium --headless --print-to-pdf="$output_pdf" --no-margins "$html_file_uri"; then
+if ! chromium --headless --no-sandbox --print-to-pdf="$output_pdf" --no-margins "$html_file_uri"; then
     echo "Error in HTML to PDF conversion"
     exit 1
 fi
