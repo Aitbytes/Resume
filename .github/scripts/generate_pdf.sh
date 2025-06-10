@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # This script converts a Markdown file to an HTML file using Pandoc,
 # and then converts the HTML file to a PDF using Chromium in headless mode.
