@@ -21,7 +21,7 @@
 
 <i class="fa fa-phone"></i>+33 7 49 55 93 34 
 
-<i class="fa fa-calendar" aria-hidden="true"></i> agé de **22 ans**
+<i class="fa fa-calendar" aria-hidden="true"></i> agé de **23 ans**
 
 <i class="fa fa-home" aria-hidden="true"></i> 31400 Toulouse
 
