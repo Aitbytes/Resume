@@ -93,9 +93,10 @@
 - Contribution à la **protection des données à caractère personnels** au sein d'une entreprise du **CAC 40** via la gestion du consentement aux cookies.
 - Mise en oeuvre d'un démonstrateur d'usine logicielle permettant le déploiement **automatisé** d'une infrastructure sur plateforme **On-premise, hybride ou multicloud**. 
 
+### <img src="./samares.jpg" class="logo-entreprise"> Samares Engineering, Blagnac, France 
 #### Stage administrateur systéme <time>Juillet - Septembre 2024</time>
-- **État des lieux**, Analyse des **riques**, et **conseil de remédiation**.
-- Sécurisation de l'accès aux applications via **HTTPS** grace à un reverse proxy Traefik 
+- **État des lieux**, Analyse des **risques**, et **conseil de remédiation**.
+- Sécurisation de l'accès aux applications via **HTTPS** grâce à un reverse proxy Traefik 
 - Mise en place d'une **authentification centralisée** avec **Azure Entra ID**.
 - Amélioration de la **fiabilité** et la **disponibilité** d'applications métier.
 
