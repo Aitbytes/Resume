@@ -131,7 +131,7 @@
 
 
 #### Projet "Home Server"
-- Déploiement de services web à usage personel dans des conteneurs **docker**, avec une gestion de la **sécurité** : configuration de **firewalls**, de **reverse-proxys** et de l'accès via un **réseau** privé virtuel basé sur **Wiregard**.
+- Infrastructure personnelle gérée en **GitOps** avec le code versionné sur **GitHub** : déploiement automatisé de services web conteneurisés avec **Docker**, **Ansible** et **Terraform** , sécurisation via **firewalls** , **reverse-proxys** et accès distant sécurisé par **WireGuard**.
 
 
 </div>
