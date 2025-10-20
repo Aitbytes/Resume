@@ -72,7 +72,7 @@ body {
 
 .left-column {
     /* Style for the left column */
-    padding: 20px; /* Adjust the padding as needed */
+    padding: 18px; /* Adjust the padding as needed */
     background-color: var(--darkblue); /* Set the background color for the left column */
     height: 100vh;
     display: flex;
@@ -88,7 +88,7 @@ body {
 
 
 .left-column li {
-    line-height: 150%;
+    line-height: 130%;
     margin-bottom: 0.5rem;
     font-size: 85%;
 }
