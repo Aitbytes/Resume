@@ -82,11 +82,8 @@
 ## Expériences 
 ### <img src="./devoteam.jpg" class="logo-entreprise">  Devoteam, Toulouse, France 
 #### <img src="./airbus.png" style="height: 10px;transform: translateY(0px)"  class="logo-entreprise">, Consultant SecDevOps  <time>Octobre 2025 - Présent</time>
-- **Maintien en condition opérationnelle (MCO)** de la plateforme de gestion du consentement **OneTrust** pour un leader mondial de l'**aéronautique**.
-- **Gestion des incidents, des évolutions et de la performance** de la solution dans un contexte international et exigeant.
-- **Interface directe avec le client** pour le recueil des besoins, le support et le reporting, dans un environnement **exclusivement anglophone**.
-- **Montée en compétence sur les aspects de gouvernance des données** (Data Governance) et de conformité réglementaire (RGPD, ePrivacy).
-- Automatisation des tâches d'exploitation via scripting **Appscript**.
+- **Maintien en condition opérationnelle (MCO)** et gestion des incidents pour une plateforme de gouvernance des données chez un leader de l'**aéronautique**.
+- **Interface technique avec le client** et automatisation des processus d'exploitation dans un contexte international exigeant.
 
 #### Stage SecDevOps <time>Mars - Septembre 2025</time> <a href="https://drive.google.com/file/d/1-DCJuHKQ3kDYewHlmVdZuzm_WwbIhZso/view?usp=sharing" target="_blank" style="text-decoration: none;">&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
 - **Conception et réalisation d'une plateforme DevSecOps** pour le déploiement automatisé d'infrastructures en environnements isolés (*air-gapped*), en réponse à des exigences de conformité (ANSSI).
@@ -95,8 +92,7 @@
 
 ### <img src="./samares.jpg" class="logo-entreprise"> Samares Engineering, Blagnac, France 
 #### Stage administrateur systéme <time>Juillet - Septembre 2024</time>
-- **Audit de sécurité et conseil** : Analyse des risques de l'infrastructure, et proposition d'un plan de remédiation pour renforcer la fiabilité des applications.
-- **Mise en œuvre de solutions de sécurité** : Déploiement de l'authentification fédérée (OAuth/OIDC) et d'un reverse proxy (Traefik) pour sécuriser l'accès aux services.
+- **Audit de sécurité et renforcement des accès** (OAuth/OIDC, Traefik) pour améliorer la fiabilité et la disponibilité d'applications métier.
 
 ## Formation
 ### <img src="./logo_insa.jpg" class="logo"> INSA Toulouse 
@@ -111,9 +107,9 @@
 ## Projets
 
 #### Projet "Home Server" <a href="https://github.com/Aitbytes/blithe-1/tree/main/" target="_blank" style="text-decoration: none;">&nbsp;<i class="fa fa-github" aria-hidden="true"></i></a>
-- **Gestion d'une infrastructure personnelle ("Home Lab") en GitOps** : Automatisation complète du provisionnement (**Terraform**) et de la configuration (**Ansible**) de serveurs physiques (**Proxmox**) et cloud (**Hetzner**).
-- **Déploiement d'un cluster Kubernetes (Talos)** et de services conteneurisés (**Docker**) avec exposition sécurisée via un reverse-proxy **Traefik** et un VPN **Tailscale**.
-- **Mise en place d'une architecture de sécurité robuste** : gestion centralisée des secrets avec **HashiCorp Vault**, stockage redondant et chiffré avec **ZFS (RAID-Z1, LUKS)**, et validation continue via **CI/CD (GitHub Actions)**.
+- **Infrastructure GitOps Hybride (Proxmox/Hetzner)** avec provisionnement automatisé (Terraform) et configuration managée (Ansible).
+- **Orchestration de services conteneurisés (Docker) sur Kubernetes (Talos)** avec exposition sécurisée via Traefik et Tailscale.
+- **Architecture de sécurité Zero-Trust** : gestion centralisée des secrets (HashiCorp Vault), stockage chiffré (ZFS/LUKS) et validation continue par CI/CD (GitHub Actions).
 
 ## Associatif
 ### <img src="./JE.jpg" class="logo-entreprise" > Confederation Nationale des Junior Entreprises, France
