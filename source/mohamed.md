@@ -34,9 +34,9 @@
 
 ## Compétences Techniques
 
-- <u>**Infrastructure**</u> :<span class="mastered"> Kubernetes, Docker, Terraform, Datadog, Linux, Git</span>, <span class="ammateur">Github actions</span>, <span class="familiar">Azure, GCP, Ansible</span> 
-- <u>**Sécurité & IAM**</u> <div class="ammateur">Azure Entra ID, OAuth/OIDC, LDAP, Politiques de sécurité</span>
-- <u>**Développement**</u> : <span class="mastered">Python, Shell scripting, C, TypeScript/JavaScript</span>,<span class="familiar">Jira, ServiceNow</span>
+- <u>**Infrastructure**</u>: <span class="mastered">Kubernetes, Docker, Terraform, Datadog, Linux, Git</span>, <span class="ammateur">Ansible, Packer, CI/CD (GitHub Actions, Drone), Proxmox, Traefik</span>, <span class="familiar">Azure, GCP</span>
+- <u>**Sécurité & IAM**</u>: <span class="mastered">HashiCorp Vault</span>, <span class="ammateur">OAuth/OIDC, Politiques de sécurité (ISO 27001, ANSSI)</span>, <span class="familiar">Gouvernance des données (RGPD)</span>
+- <u>**Développement**</u>: <span class="mastered">Python, Shell, TypeScript/JS</span>, <span class="ammateur">Appscript, IA (LLM)</span>
 
 <div class="legend">
 - <div class="mastered"><i class="fa fa-square" aria-hidden="true"></i>  &gt;3 ans de pratique, ou certification</div>
@@ -45,6 +45,7 @@
 </div>
 
 ## Certifications
+- <img src="./kubernetes.png" class="logo"> Certified Kubernetes Application Developer (CKAD)
 - <img src="./hashicorp_logo.jpg" class="logo"> HashiCorp Certified: Terraform Associate (003)
 - <img src="./datadog_logo.jpg" class="logo"> Datadog Certified: Datadog Fundamentals
 
@@ -66,8 +67,8 @@
 
 <div class="main-content">
 
- <span class="intitule">ÉTUDIANT INGÉNIEUR CYBER-SÉCURITÉ</span>
- <span class="sous-intitule">**Consultant Cyber-sécurité et DevOps** en stage de fin d'études (équivalent M2). Disponible en **CDI** à partir d'**octobre 2025** </span>
+ <span class="intitule">INGÉNIEUR CYBER-SÉCURITÉ</span>
+ <span class="sous-intitule">**Consultant SecDevOps | Recherche mission DevOps, Cloud (Aérospatial)**</span>
 <!-- <div class="descriptif"> -->
 <!---->
 <!-- # Recherche -->
@@ -75,63 +76,58 @@
 <!---->
 <!-- </div> -->
 
-## Formation
-
-### <img src="./logo_insa.jpg" class="logo"> INSA Toulouse 
-
-<location>Toulouse, France</location>  <time>Septembre 2020 - Présent</time>
-
-- Diplôme d'Ingénieur **Informatique** et **Réseaux** prévu pour **Octobre 2025**
-- <img src="./tls-sec.jpg" class="logo"> <img src="./n7.jpg" class="logo"> Spécialité **TLS-SEC** en cyber-sécurité en échange avec l'**INP ENSEEIHT**
-- <img src="./pastille-UT.jpg" class="logo"> **Double-diplôme** : **Master** Réseaux de Télécommunication spécialité **Sécurité de Systèmes d'Information et des Réseaux** à l'**Université de Toulouse** 
-
-
-
 
 
 
 ## Expériences 
-### <img src="./devoteam.jpg" class="logo-entreprise"> Devoteam, Toulouse, France 
-#### Stage SecDevOps <time>Mars - Septembre 2025</time>
-- Contribution à la **protection des données à caractère personnels** au sein d'une entreprise du **CAC 40** via la gestion du consentement aux cookies.
-- Mise en oeuvre d'un démonstrateur d'usine logicielle permettant le déploiement **automatisé** d'une infrastructure sur plateforme **On-premise, hybride ou multicloud**. 
+### <img src="./devoteam.jpg" class="logo-entreprise">  Devoteam, Toulouse, France 
+#### <img src="./airbus.png" style="height: 10px;transform: translateY(0px)"  class="logo-entreprise">, Consultant SecDevOps  <time>Octobre 2025 - Présent</time>
+- **Maintien en condition opérationnelle (MCO)** de la plateforme de gestion du consentement **OneTrust** pour un leader mondial de l'**aéronautique**.
+- **Gestion des incidents, des évolutions et de la performance** de la solution dans un contexte international et exigeant.
+- **Interface directe avec le client** pour le recueil des besoins, le support et le reporting, dans un environnement **exclusivement anglophone**.
+- **Montée en compétence sur les aspects de gouvernance des données** (Data Governance) et de conformité réglementaire (RGPD, ePrivacy).
+- Automatisation des tâches d'exploitation via scripting **Appscript**.
+
+#### Stage SecDevOps <time>Mars - Septembre 2025</time> <a href="https://drive.google.com/file/d/1-DCJuHKQ3kDYewHlmVdZuzm_WwbIhZso/view?usp=sharing" target="_blank" style="text-decoration: none;">&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+- **Conception et réalisation d'une plateforme DevSecOps** pour le déploiement automatisé d'infrastructures en environnements isolés (*air-gapped*), en réponse à des exigences de conformité (ANSSI).
+- **Création d'une "Golden Image" immuable** avec **Packer**, **Terraform** et **Ansible** pour résoudre la problématique de l'amorçage (*bootstrapping*) d'un écosystème GitOps.
+- **Intégration d'une usine logicielle complète et sécurisée** incluant **Forgejo** (Git), **Drone** (CI/CD) et **HashiCorp Vault** (secrets), orchestrée via Docker Compose.
 
 ### <img src="./samares.jpg" class="logo-entreprise"> Samares Engineering, Blagnac, France 
 #### Stage administrateur systéme <time>Juillet - Septembre 2024</time>
-- **État des lieux**, Analyse des **risques**, et **conseil de remédiation**.
-- Mise en place de l'**authentification fédérée** avec protocole **OAuth/OIDC**.
-- Sécurisation de l'accès aux applications via **HTTPS** grâce à un reverse proxy Traefik 
-- Amélioration de la **fiabilité** et la **disponibilité** d'applications métier.
+- **Audit de sécurité et conseil** : Analyse des risques de l'infrastructure, et proposition d'un plan de remédiation pour renforcer la fiabilité des applications.
+- **Mise en œuvre de solutions de sécurité** : Déploiement de l'authentification fédérée (OAuth/OIDC) et d'un reverse proxy (Traefik) pour sécuriser l'accès aux services.
 
-----------
+## Formation
+### <img src="./logo_insa.jpg" class="logo"> INSA Toulouse 
 
+<location>Toulouse, France</location>  <time>Septembre 2020 - 2025</time>
 
-### <img src="./JE.jpg" class="logo-entreprise" > Confederation Nationale des Junior Entreprises, France 
-#### Auditeur organisationnel <time>Juillet 2024 - Présent</time>
-- Audit et évaluation de la conformité des Junior-Entreprises à la norme nationale à travers l'analyse des processus de Stratégie & pilotage, de Développement commercial, de Gestion de projet, et de Gestion des ressources humaines.
-
-
-### <img src="./JIS.jpg" style="height: 22px" class="logo-entreprise"> Junior INSA Service, Toulouse, France 
-#### Consultant 
-
-- **GenIA** : Programmation d'un système de classification de fichiers par LLM améliorant significativement l'efficacité opérationelle du client <timesmall>Juin 2025</timesmall>
-
-- **Cyber-sécurité** : Rédaction de politiques de sécurité en vue d'une certification ISO 27001 <timesmall>Avril 2024</timesmall>
-
-#### Vice-Président, Responsable commercial  <time>Novembre 2022 - Janvier 2025</time>
-
-- **Pilotage** : Gestion d'une équipe de 25 étudiants avec autonomie et rigeur.
-- **Qualité** : Mise en place et pilotage de processus par les indicateurs.
-- **Communication** : Formation et évaluation des nouveaux membres.
-- **Résolution de conflits** : Traitement des litiges clients, préservation de la structure contre des risques financiers.
-- **Gestion de projets multiples** : Piloté avec succès huit projets de développement web et mobile, IA, cybersécurité, garantissant la satisfaction client grâce à une adaptabilité et un sens de l'engagement.
+- Diplôme d'Ingénieur **Informatique** et **Réseaux** 
+- <img src="./tls-sec.jpg" class="logo"> <img src="./n7.jpg" class="logo"> Spécialité **TLS-SEC** en cyber-sécurité en échange avec l'**INP ENSEEIHT**
+- <img src="./pastille-UT.jpg" class="logo"> **Double-diplôme** : **Master** Réseaux de Télécommunication spécialité **Sécurité de Systèmes d'Information et des Réseaux** à l'**Université de Toulouse** 
 
 
-## Projets Académiques et Personnels
+## Projets
+
+#### Projet "Home Server" <a href="https://github.com/Aitbytes/blithe-1/tree/main/" target="_blank" style="text-decoration: none;">&nbsp;<i class="fa fa-github" aria-hidden="true"></i></a>
+- **Gestion d'une infrastructure personnelle ("Home Lab") en GitOps** : Automatisation complète du provisionnement (**Terraform**) et de la configuration (**Ansible**) de serveurs physiques (**Proxmox**) et cloud (**Hetzner**).
+- **Déploiement d'un cluster Kubernetes (Talos)** et de services conteneurisés (**Docker**) avec exposition sécurisée via un reverse-proxy **Traefik** et un VPN **Tailscale**.
+- **Mise en place d'une architecture de sécurité robuste** : gestion centralisée des secrets avec **HashiCorp Vault**, stockage redondant et chiffré avec **ZFS (RAID-Z1, LUKS)**, et validation continue via **CI/CD (GitHub Actions)**.
+
+## Associatif
+### <img src="./JE.jpg" class="logo-entreprise" > Confederation Nationale des Junior Entreprises, France
+#### Auditeur Organisationnel <time>Juillet 2024 - Présent</time>
+- **Audit & Conformité** : Évaluation de la conformité des processus de gestion des Junior-Entreprises aux normes nationales.
+
+### <img src="./JIS.jpg" style="height: 22px" class="logo-entreprise"> Junior INSA Service, Toulouse, France
+#### Vice-Président & Consultant <time>Novembre 2022 - Janvier 2025</time>
+- **Management et Pilotage** : Encadrement d'une équipe de 25 étudiants, mise en place de processus qualité et gestion des risques.
+- **Gestion de Projets Techniques** : Pilotage de 8 projets (IA, cyber, web) et missions de conseil (classification LLM, politiques de sécurité ISO 27001).
+- **Développement Commercial** : Formation, gestion des litiges et garantie de la satisfaction client.
 
 
-#### Projet "Home Server"
-- Infrastructure personnelle gérée en **GitOps** avec le code versionné sur **GitHub** : déploiement automatisé de services web conteneurisés avec **Docker**, **Ansible** et **Terraform** , sécurisation via **firewalls** , **reverse-proxys** et accès distant sécurisé par **WireGuard**.
+
 
 
 </div>
