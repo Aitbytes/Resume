@@ -1,8 +1,7 @@
-:root{
-    --orange: #F17105;
-    --blue: #71A9F7;
-    --pink: #F374AE;
-    --darkblue:#0A397F;
+:root {
+    --rust-red: #D9534F;
+    --gray: #777;
+    --black: #333;
 }
 
 .logo {
@@ -10,7 +9,6 @@
     transform: translateY(4px);
 }
 .logo-entreprise {
-    
     height: 18px;
     transform: translateY(4px);
 }
@@ -24,7 +22,6 @@ html {
     @page {
         margin: 0;
     }
-
     body {
         margin: 1.6cm;
     }
@@ -32,7 +29,6 @@ html {
 
 .profile_pic {
     height: 4.5cm;
-
     width: auto;
     aspect-ratio: initial;
     border-radius: 50%;
@@ -40,94 +36,78 @@ html {
     margin: 0.5cm auto;
 }
 
-
 body {
     max-width: 100%;
     margin: 0 auto;
     padding: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 14px;
-    /* width: 210mm; */
-}
-
-.legend {
-    font-size: 80%;
-}
-
-.mastered {
-    color : var(--blue);
-    font-weight: bold;
-}
-
-.ammateur {
-    color: var(--pink);
-    font-weight: bold;
-
-}
-
-.familiar {
-    color: var(--orange);
-    font-weight: bold;
+    color: var(--black);
 }
 
 .left-column {
-    /* Style for the left column */
-    padding: 18px; /* Adjust the padding as needed */
-    background-color: var(--darkblue); /* Set the background color for the left column */
-    height: 100vh;
+    padding: 18px;
     display: flex;
     flex-direction: column;
     width: 33%;
-    color: white;
-
+    height: 100vh;
 }
-
-.left-column .skill {
-
-}
-
 
 .left-column li {
     line-height: 130%;
     margin-bottom: 0.5rem;
     font-size: 85%;
 }
+
 .left-column h2 {
-    color: white;
-    border-bottom: 2px solid white !important;
+    color: var(--rust-red);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    padding: 0 0 2px 0;
+    border-bottom: none !important;
 }
+
 span.name {
-    font-size: 185%
+    font-size: 250%; /* Increased size */
+    font-weight: bold;
+    color: var(--rust-red);
+    display: block;
+    text-align: center;
+    line-height: 150%;
 }
-.info_2 a{
-    color: white;
+
+.info_2 a {
+    color: var(--black);
 }
 
 .main-content {
-    /* Style for the main content column */
     display: flex;
-    padding: 20px; /* Adjust the padding as needed */
+    padding: 20px;
     flex-direction: column;
     width: 66%;
     height: 100vh;
 }
-.main-content h2{
-    font-size: 160%;
 
+.main-content h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--black);
+    margin: 10px 0 5px 0;
+    padding: 0 0 2px 0;
+    border-bottom: none !important;
 }
 
-.sous-intitule{
+.sous-intitule {
     text-align: center;
     display: block;
     line-height: 150%;
     font-size: 100%;
-    /* background: var(--blue); */
     font-weight: bold;
-    border-top : 2px solid var(--darkblue) ; 
-    /* padding: 4px; */
-    /* border-radius: 2px; */
     font-style: italic;
+    border: none;
 }
+
 .main-content li {
     line-height: 140%;
     font-size: 80%;
@@ -139,61 +119,36 @@ span.name {
     height: 100%;
 }
 
-.name {
-    font-size: 200%;
-    line-height: 150%;
-    font-weight: bold;
-    display: block;
-    text-align: center;
-}
 .intitule {
-    font-size: 150%;
+    font-size: 120%;
     line-height: 150%;
     font-weight: bold;
     display: block;
     text-align: center;
+    text-transform: uppercase;
+    color: var(--gray);
 }
 
-h1 {
+h1, h3, h4 {
     border: none;
     font-weight: bold;
     padding: 0;
     margin: 1rem 0;
-    color: #0D47A1;
-    size: 2.0rem;
-    border-bottom: 2px solid black !important;
+    color: var(--black);
 }
 
 h2 {
-    font-size: 1.2em;
-    font-weight: bold;
-    border-bottom: 2px solid black !important;
-    color: #0D47A1;
-    margin: 10px 0 5px 0;
-    padding: 0 0 2px 0;
-}
-
-h3 {
-    font-size: 1.1em;
-    font-weight: bold;
-    margin: 3px 0 3px 0;
-}
-
-h4 {
-    font-size: 0.9em;
-    font-weight: bold;
-    margin: 0 0 0.25em 0;
+    /* General h2 reset, specifics in .left-column and .main-content */
+    border-bottom: none !important;
 }
 
 
-p,
-ul {
+p, ul {
     font-size: 100%;
     margin: 0;
 }
 
-ul,
-ol {
+ul, ol {
     padding: 0 0 0 1.5rem;
     margin: 0;
 }
@@ -206,22 +161,22 @@ li {
     line-height: 150%;
 }
 
-.info,
-.info_2 {
+.info, .info_2 {
     display: block;
     text-align: justify;
 }
-.descriptif {
 
+.descriptif {
     display: block;
     text-align: left;
 }
+
 .descriptif li {
     line-height: 100%;
 }
 
 a {
-    color: #0D47A1;
+    color: var(--black);
 }
 
 code {
@@ -233,6 +188,7 @@ time {
     font-size: 95%;
     font-weight: bold;
 }
+
 timesmall {
     float: right;
     font-size: 95%;
@@ -242,4 +198,9 @@ timesmall {
 location {
     font-weight: normal;
     font-style: italic;
+}
+
+/* Removed classes */
+.legend, .mastered, .ammateur, .familiar {
+    display: none;
 }
