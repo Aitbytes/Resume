@@ -1,6 +1,6 @@
 {
-  "exec": "./.github/scripts/generate_pdf.sh fr source/mohamed.md resume.pdf && librewolf resume.pdf",
-  "watch": ["*.md", "*.css"],
-  "ext": "md,css"
+"exec": "chromium --headless --disable-gpu --print-to-pdf=resume.pdf template.html",
+  "watch": ["*.md", "*.css", "*.html"],
+  "ext": "md,css,html"
 }
 

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - John Doe</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #ffffff;
+            color: #3c3c3a;
+            line-height: 1.4;
+        }
+
+        .container {
+            max-width: 210mm;
+            height: 297mm;
+            margin: 0 auto;
+            background-color: #ffffff;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header Section with Beige Background */
+        .header-section {
+            background-color: #EFEADC;
+            padding: 30px 22.5mm 20px 22.5mm;
+            flex-shrink: 0;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 35px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .tagline {
+            color: #F8485E;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        /* Profile Section */
+        .profile-section {
+            display: flex;
+            gap: 15.5mm;
+            align-items: center;
+        }
+
+        .profile-image {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .profile-info h3 {
+            font-size: 13px;
+            font-weight: 400;
+            color: #666;
+            margin-bottom: 3px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .profile-info h1 {
+            font-size: 24px;
+            color: #F8485E;
+            font-weight: bold;
+            margin-bottom: 3px;
+            line-height: 1.1;
+        }
+
+        .profile-info p {
+            font-size: 13px;
+            color: #666;
+            font-weight: 400;
+        }
+
+        /* White Content Section */
+        .content-section {
+            background-color: #ffffff;
+            padding: 15px 22.5mm 85mm 22.5mm;
+            flex: 1;
+        }
+
+        /* Instructions */
+        .instructions {
+            margin-bottom: 25px;
+            font-size: 11.5px;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+
+        .instructions strong {
+            font-weight: bold;
+        }
+
+        .instructions,
+        .profile-info p,
+        .column p,
+        .column ul li {
+            text-align: justify;
+        }
+
+        /* Main Content - Two Columns */
+        .content-wrapper {
+            display: grid;
+            grid-template-columns: 62mm 1fr;
+            gap: 40px;
+        }
+
+        .column h2 {
+            color: #F8485E;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 6px;
+            margin-top: 18px;
+            line-height: 1.2;
+        }
+
+        .column h2:first-child {
+            margin-top: 0;
+        }
+
+        .column h3 {
+            font-size: 11px;
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 2px;
+            margin-top: 6px;
+            line-height: 1.4;
+            text-align: justify;
+        }
+
+        .column h3:first-of-type {
+            margin-top: 0;
+        }
+
+        .column p {
+            font-size: 11px;
+            color: #666;
+            margin-bottom: 5px;
+            font-weight: 400;
+            line-height: 1.4;
+        }
+
+        .column ul {
+            list-style: none;
+            margin-bottom: 10px;
+        }
+
+        .column ul li {
+            font-size: 11px;
+            margin-bottom: 6px;
+            padding-left: 15px;
+            position: relative;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+
+        .column ul li::before {
+            content: "●";
+            position: absolute;
+            left: 0;
+            color: #3c3c3a;
+            font-size: 8px;
+            top: 2px;
+        }
+
+        .column ul li strong {
+            font-weight: bold;
+        }
+
+        .language-item {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 3px;
+            font-size: 11px;
+            line-height: 1.4;
+        }
+
+        .language-label {
+            font-weight: bold;
+        }
+
+        /* Vertical divider */
+        .left-column {
+            border-right: 1px solid #666;
+            padding-right: 40px;
+        }
+
+        .right-column {
+            padding-left: 0;
+        }
+
+        /* Page number */
+        .page-number {
+            position: absolute;
+            bottom: 30px;
+            right: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #3c3c3a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section with Beige Background -->
+        <div class="header-section">
+            <!-- Header -->
+            <header>
+                <div class="logo">
+                    <img src="_site/devoteam_horiz.png" alt="Devoteam Logo" style="height: 65px;">
+                </div>
+                <div class="tagline">AI-driven tech consulting</div>
+            </header>
+
+            <!-- Profile Section -->
+            <div class="profile-section">
+                <img src="placeholder.svg" alt="John Doe" class="profile-image">
+                <div class="profile-info">
+                    <h3>Lead Consultant</h3>
+                    <h1>John Doe</h1>
+                    <p>Ville, Pays</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- White Content Section -->
+        <div class="content-section">
+            <!-- Instructions -->
+            <div class="instructions">
+                <strong>Ne dépassez pas 4 à 5 lignes et mettez en gras le titre de votre poste.</strong> Vantez-vous - faites de votre profil un argument de vente. Pas de phrases vagues ou générales. Écrivez vos domaines d'expertise (CdE), vos meilleures qualités. Utilisez des adjectifs forts et stimulants (par exemple, "enthousiaste", "certifié", "ayant de solides connaissances en (...)", etc.)
+            </div>
+
+            <!-- Main Content -->
+            <div class="content-wrapper">
+                <!-- Left Column -->
+                <div class="column left-column">
+                    <h2>Diplômes</h2>
+                    <h3>Diplôme #1</h3>
+                    <p>École, Année</p>
+                    
+                    <h3>Diplôme #2</h3>
+                    <p>École, Année</p>
+
+                    <h2>Certifications</h2>
+                    <h3>Organisme de délivrance</h3>
+                    <ul>
+                        <li>Certification, Année</li>
+                        <li>Certification, Année</li>
+                    </ul>
+
+                    <h3>Organisme de délivrance</h3>
+                    <ul>
+                        <li>Certification, Année</li>
+                        <li>Certification, Année</li>
+                    </ul>
+
+                    <h2>Langues</h2>
+                    <div class="language-item">
+                        <span class="language-label">Langue</span>
+                        <span>Maternelle</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-label">Langue</span>
+                        <span>Courant</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-label">Langue</span>
+                        <span>Opérationnel</span>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="column right-column">
+                    <h2>Compétences techniques</h2>
+                    <ul>
+                        <li><strong>AI :</strong> Vous pouvez modifier les titres de ces sections pour les adapter à vos connaissances techniques/compétences fonctionnelles spécifiques. Ce ne sont que des exemples.</li>
+                        <li><strong>Data :</strong> Fournir une description.</li>
+                        <li><strong>Outils :</strong> Fournir une description.</li>
+                        <li><strong>Langages de programmation :</strong> Fournir une description.</li>
+                    </ul>
+
+                    <h2>Compétences fonctionnelles</h2>
+                    <ul>
+                        <li><strong>Gestion de projet :</strong> Vous pouvez modifier les titres de ces sections pour les adapter à vos connaissances techniques/compétences fonctionnelles spécifiques. Ce ne sont que des exemples.</li>
+                        <li><strong>Méthodologie :</strong> Fournir une description.</li>
+                        <li><strong>Soft skills :</strong> Fournir une description.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Page Number -->
+        <div class="page-number">1</div>
+    </div>
+</body>
+</html>>>
+</html>>

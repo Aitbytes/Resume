@@ -1,2 +1,4 @@
 *.html
 *.pdf
+!template.html
+node_modules

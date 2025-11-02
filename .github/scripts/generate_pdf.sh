@@ -1,18 +1,17 @@
 #!/usr/bin/env bash
 
-# This script converts a Markdown file to an HTML file using Pandoc,
-# and then converts the HTML file to a PDF using Chromium in headless mode.
+# This script converts an HTML file to a PDF file using Chromium in headless mode.
 
 # Check if the correct number of arguments is provided
 if [ "$#" -ne 3 ]; then
-    echo "Usage: $0 <option> <input_markdown_file> <output_pdf_file>"
+    echo "Usage: $0 <option> <input_html_file> <output_pdf_file>"
     exit 1
 fi
 
 option="$1"
-input_markdown="$2"
+input_html="$2"
 output_pdf="$3"
-output_html="index.html"
+output_html_temp="_site/temp_resume.html"
 
 case "$option" in
     "fr") css_file="fr.css"
@@ -23,42 +22,38 @@ case "$option" in
     ;;
 esac
 
-
 awesome_font_url="../font-awesome-4.7.0/css/font-awesome.css"
-html_file_path="_site/${output_html}"
-#conversion_script_path="/home/a8taleb/dev/resume/md_resume/markdown-resume/source/to_english.py"
-#
-#Check whether markdown file is present
-if [ ! -f "$input_markdown" ]; then
+
+# Check whether input file is present
+if [ ! -f "$input_html" ]; then
     echo "Input file not found"
     exit 1
 fi
 
-
 mkdir -p _site
 
-# Convert Markdown to HTML
-if ! pandoc "$input_markdown" --standalone --to html5 -o "$html_file_path"  --css "$css_file" --css "$awesome_font_url"; then
-    echo "Error in Markdown to HTML conversion"
-    exit 1
-fi
+# Create a temporary HTML file with a proper head
+cat <<EOF > "$output_html_temp"
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Resume</title>
+  <link rel="stylesheet" href="$css_file">
+  <link rel="stylesheet" href="$awesome_font_url">
+</head>
+<body>
+EOF
 
-# if [[ $option == "en" ]]; then
-#     if ! $conversion_script_path "$output_html"; then 
-#         echo "Error in conversion to English"
-#         exit 1
-#     fi
-#     output_html="modified.html"
-#     html_file_path="/home/a8taleb/dev/resume/md_resume/markdown-resume/${output_html}"
-# fi
-# Checks whether HTML file is present
-if [ ! -f "$html_file_path" ]; then
-    echo "HTML file not found"
-    exit 1
-fi
+# Append the body content from the input file
+cat "$input_html" >> "$output_html_temp"
+
+# Add the closing body and html tags
+echo "</body>" >> "$output_html_temp"
+echo "</html>" >> "$output_html_temp"
 
 # Define file uri for chromium
-html_file_uri=file://$(pwd)/${html_file_path}
+html_file_uri=file://$(pwd)/${output_html_temp}
 
 # Convert HTML to PDF
 if ! chromium --headless --no-sandbox --print-to-pdf="$output_pdf" --no-margins "$html_file_uri"; then
@@ -68,3 +63,5 @@ fi
 
 echo "Conversion completed successfully."
 
+# Clean up the temporary file
+rm "$output_html_temp"
