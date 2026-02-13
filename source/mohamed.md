@@ -63,7 +63,7 @@
 <div class="main-content">
 
  <span class="intitule">INGÉNIEUR CYBER-SÉCURITÉ</span>
- <span class="sous-intitule">**Consultant SecDevOps | Recherche mission DevOps, Cloud (Aérospatial)**</span>
+
 <span class="sous-intitule">**Consultant Infrastructure - SecDevOps **</span>
 <!-- <div class="descriptif"> -->
 <!---->
