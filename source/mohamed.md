@@ -57,13 +57,6 @@
 - **Français** (courant), **Anglais** (Cambridge C1), **Arabe** (bilingue).
 
 
-## Centres d'intérêt
-
-- Passionné de **Musculation**, **Callisthénie**, Course à pied et **Randonnée**.
-- **Improvisation**, **Éloquence**.
-
-
-
 </div>
 
 </span>
