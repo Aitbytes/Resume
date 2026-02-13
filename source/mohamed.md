@@ -53,6 +53,8 @@
 - <img src="certs/hashicorp-certified-vault-associate-003.png" class="logo"> HashiCorp Certified: Vault Associate
 - <img src="certs/datadog-certified-datadog-fundamentals.png" class="logo"> Datadog Certified: Datadog Fundamentals
 
+## Langues
+
 - **Français** (courant), **Anglais** (Cambridge C1), **Arabe** (bilingue).
 
 
