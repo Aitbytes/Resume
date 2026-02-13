@@ -45,14 +45,13 @@
 </div>
 
 ## Certifications
-- <img src="./kubernetes.png" class="logo"> Certified Kubernetes Application Developer (CKAD)
-- <img src="./openshift.png" class="logo"> Red Hat Certified Specialist in OpenShift Administration (RH280)
-- <img src="./CLF_C02.png" class="logo"> AWS Cloud Practitioner
-- <img src="./tf.png" class="logo"> HashiCorp Certified: Terraform Associate (003)
-- <img src="./hashicorp_logo.jpg" class="logo"> HashiCorp Certified: Vault Associate
-- <img src="./datadog_logo.jpg" class="logo"> Datadog Certified: Datadog Fundamentals
 
-## Langues 
+- <img src="certs/ckad-certified-kubernetes-application-developer.png" class="logo"> Certified Kubernetes Application Developer (CKAD)
+- <img src="certs/red-hat-certified-openshift-administrator.png" class="logo"> Red Hat Certified Specialist in OpenShift Administration (RH280)
+- <img src="certs/aws-certified-cloud-practitioner (1).png" class="logo"> AWS Cloud Practitioner
+- <img src="certs/hashicorp-certified-terraform-associate-003.png" class="logo"> HashiCorp Certified: Terraform Associate (003)
+- <img src="certs/hashicorp-certified-vault-associate-003.png" class="logo"> HashiCorp Certified: Vault Associate
+- <img src="certs/datadog-certified-datadog-fundamentals.png" class="logo"> Datadog Certified: Datadog Fundamentals
 
 - **Français** (courant), **Anglais** (Cambridge C1), **Arabe** (bilingue).
 
