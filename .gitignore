@@ -1,2 +1,6 @@
 *.html
 *.pdf
+!template.html
+!page*.html
+node_modules
+cv.html
