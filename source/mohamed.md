@@ -34,19 +34,22 @@
 
 ## Compétences Techniques
 
-- <u>**Infrastructure**</u>: <span class="mastered">Kubernetes, Docker, Terraform, Datadog, Linux, Git</span>, <span class="ammateur">Ansible, Packer, CI/CD (GitHub Actions, Drone), Proxmox, Traefik</span>, <span class="familiar">Azure, GCP</span>
-- <u>**Sécurité & IAM**</u>: <span class="mastered">HashiCorp Vault</span>, <span class="ammateur">OAuth/OIDC, Politiques de sécurité (ISO 27001, ANSSI)</span>, <span class="familiar">Gouvernance des données (RGPD)</span>
-- <u>**Développement**</u>: <span class="mastered">Python, Shell, TypeScript/JS</span>, <span class="ammateur">Appscript, IA (LLM)</span>
+- <u>**Infrastructure**</u>: <span class="mastered">Kubernetes, Docker, Terraform, Linux, Git (CI/CD)</span>, <span class="ammateur">Ansible, Packer, AWS (CL-C02)</span>
+- <u>**Sécurité & IAM**</u>: <span class="mastered">HashiCorp Vault, IAM AWS</span>, <span class="ammateur">OAuth/OIDC/SAML</span>
+- <u>**Développement**</u>: <span class="mastered">Python, Shell, TypeScript/JS</span>, <span class="ammateur">Golang, Rust, Appscript</span>
 
 <div class="legend">
 - <div class="mastered"><i class="fa fa-square" aria-hidden="true"></i>  &gt;3 ans de pratique, ou certification</div>
 - <div class="ammateur"><i class="fa fa-square" aria-hidden="true"></i> 1-3 ans de pratique</div>
-- <div class="familiar"><i class="fa fa-square" aria-hidden="true"></i> &lt;1 an de pratique</div>
+<!-- - <div class="familiar"><i class="fa fa-square" aria-hidden="true"></i> &lt;1 an de pratique</div> -->
 </div>
 
 ## Certifications
 - <img src="./kubernetes.png" class="logo"> Certified Kubernetes Application Developer (CKAD)
-- <img src="./hashicorp_logo.jpg" class="logo"> HashiCorp Certified: Terraform Associate (003)
+- <img src="./openshift.png" class="logo"> Red Hat Certified Specialist in OpenShift Administration (RH280)
+- <img src="./CLF_C02.png" class="logo"> AWS Cloud Practitioner
+- <img src="./tf.png" class="logo"> HashiCorp Certified: Terraform Associate (003)
+- <img src="./hashicorp_logo.jpg" class="logo"> HashiCorp Certified: Vault Associate
 - <img src="./datadog_logo.jpg" class="logo"> Datadog Certified: Datadog Fundamentals
 
 ## Langues 
