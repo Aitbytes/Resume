@@ -5,60 +5,59 @@ Toulouse, France <span class="sep">|</span> [aittaleb@insa-toulouse.fr](mailto:a
 </span>
 
 <span class="summary">
-**DevSecOps Architect with expertise in Governance, Risk and Compliance (GRC).** Translating business challenges into pragmatic, secure solutions, cloud-native infrastructure, Zero-Trust security, and GitOps automation. Bridges technical and business stakeholders with clarity.
+**DevSecOps Engineer** who thrives at the intersection of infrastructure, security, and automation. Built a self-bootstrapping GitOps platform for air-gapped environments from scratch during an R&D internship — architecture, code, prototype. Currently embedded in a 6-person DevSecOps team at EDF.
 </span>
 
 ## Experience
 
 ### Devoteam, Toulouse, France
 
-#### Consultant DevSecOps, Security Expert, EDF Direction Commerce, <time>Apr 2026 – Present</time>
-- Embedded in the **DevSecOps team** serving EDF's Commerce Division as **security expert**: leading the security champions community and providing cross-team support on DevSecOps tooling.
-- **Monthly workshops** bringing together security champions from multiple teams (best practices, threat awareness, experience sharing).
-- **DevSecOps tooling support**: assisting teams with **Jenkins, Checkmarx SAST/SCA, GitLab, SonarQube, OpenBao, TruffleHog**.
-- **Continuous improvement**: contributing to internal tooling development and **structured feedback** to platform teams.
+#### DevSecOps Engineer — EDF Direction Commerce, <time>Apr 2026 – Present</time>
+- One of 6 engineers in a cross-functional DevSecOps team (3 Agile/testing, 1 DevOps, 1 PO, 1 security), serving EDF's Commerce Division.
+- Run monthly **security champion workshops** for 21+ attendees, structuring sessions around best practices, threat awareness, and peer experience sharing.
+- Provide **on-demand DevSecOps support** to 1–6 project teams per sprint, from 30-minute unblocking calls to full requirement scoping.
+- Built a **TypeScript extension for Gemini CLI** to streamline internal workflows — in testing, planned for division-wide rollout.
 
-#### Consultant SecDevOps, Airbus OneTrust, <time>Oct 2025 – Apr 2026</time>
-- **Operational maintenance (MCO)** and incident management for a data governance platform at a major **aerospace** client.
-- **Client-facing technical interface** and automation of operational processes in a demanding international context.
+#### Consultant SecDevOps — Airbus OneTrust, <time>Oct 2025 – Apr 2026</time>
+- Managed operational maintenance (MCO) and incident response for a OneTrust data governance platform at a major aerospace client.
+- Automated operational reporting with Google Apps Script, reducing manual effort.
+- Served as the **technical interface** between the client's legal, PMO, and engineering teams.
 
-#### SecDevOps Intern, Airbus, <time>Mar 2025 – Sep 2025</time> [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](https://drive.google.com/file/d/1-DCJuHKQ3kDYewHlmVdZuzm_WwbIhZso/view)
-- **Designed and built a DevSecOps platform** for automated infrastructure deployment in **air-gapped** environments, meeting ANSSI compliance requirements.
-- Created an immutable **"Golden Image"** with **Packer, Terraform and Ansible**, bootstrapping a full GitOps ecosystem.
+#### SecDevOps R&D Intern, <time>Mar 2025 – Sep 2025</time> [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](https://drive.google.com/file/d/1-DCJuHKQ3kDYewHlmVdZuzm_WwbIhZso/view)
+- Designed and built a **self-bootstrapping DevSecOps platform** for air-gapped environments, solving the bootstrapping paradox of deploying GitOps tooling without external connectivity.
+- Architected a 3-phase pipeline (Build, Provision, Configure) with **Packer, Terraform, and Ansible** producing an immutable, self-contained Golden Image packing **Forgejo**, **Drone**, and **HashiCorp Vault**.
+- Applied **ANSSI security principles** (network isolation, least privilege, immutability, dual audit trails). Delivered a functional prototype adopted as a reference for future engagements.
 
 ### Samares Engineering, Blagnac, France
 
-#### System & Security Administrator, <time>Jul 2024 – Sep 2024</time>
-- **Security audit** and access hardening (OAuth/OIDC, Traefik) for an industrial SME.
-- Deployed **Tailscale** mesh VPN and **Vaultwarden** secrets management without modifying existing codebase.
-- Centralized authentication via **Azure Entra ID**.
+#### System & Security Administrator (Intern), <time>Jul 2024 – Sep 2024</time>
+- Conducted a security audit of the company's IT infrastructure and identified critical vulnerabilities.
+- Deployed centralized authentication (**Azure Entra ID**), a **Tailscale** mesh VPN, and **Vaultwarden** secrets management — without modifying the existing codebase.
 
 ### Junior INSA Service, Toulouse, France
 
 #### Vice-President & Consultant, <time>Nov 2022 – Jan 2025</time>
-- Led a team of **25 students**, implemented ISO 9001 quality processes, and managed **8 technical projects** (AI, cybersecurity, web).
-- Handled complex client disputes and contract negotiations (including a €4,000 litigation case).
-- Drove business development, translating client needs into technical specifications.
+- Led a 25-person student consulting organization, structuring project management processes based on ISO 9001 principles alongside a professional implementer.
+- Oversaw 8 technical projects (AI, cybersecurity, web) from client need through delivery — scoping requirements and bridging business stakeholders with student engineers.
+- Resolved a client contract dispute, recovering payment and preserving the relationship.
 
 ## Education
 
 ### INSA Toulouse <location>Toulouse, France</location>, <time>2020 – 2025</time>
-- Engineering Degree in **Computer Science & Networks**
-- Specialization in **TLS-SEC** (Cybersecurity), in partnership with INP ENSEEIHT
-- **Double Master's** in Telecommunications Networks, Information Systems & Network Security (Université de Toulouse)
+- Engineering Degree in Computer Science & Networks
+- Specialization in **TLS-SEC** (Cybersecurity), in partnership with **INP ENSEEIHT**
+- Double Master's in Telecommunications Networks — Information Systems & Network Security (**Université de Toulouse**)
 
 ## Certifications
 
-- **CKAD** – Certified Kubernetes Application Developer  ·  **Red Hat** Certified Specialist in OpenShift Administration (RH280)
-- **AWS** Certified Cloud Practitioner  ·  **HashiCorp** Certified Terraform Associate (003) & Vault Associate  ·  **Datadog** Certified Fundamentals
+- **CKAD** — Kubernetes Application Developer  ·  **Red Hat** OpenShift Administration (RH280)  ·  **AWS** Cloud Practitioner
+- **HashiCorp** Terraform Associate (003) & Vault Associate  ·  **Datadog** Fundamentals
 
 ## Skills
 
 - **Infrastructure & DevOps:** Kubernetes, Docker, Terraform, Linux, Git, Jenkins, GitLab, Ansible, Packer, Proxmox, CI/CD
-- **Security & IAM:** HashiCorp Vault, OpenBao, Checkmarx (SAST & SCA), SonarQube, TruffleHog, OAuth/OIDC, Zero-Trust, ISO 27001
+- **Security & IAM:** HashiCorp Vault, OpenBao, Checkmarx (SAST & SCA), SonarQube, TruffleHog, OAuth/OIDC
 - **Cloud & Monitoring:** Azure, GCP, AWS, Datadog, Traefik, Tailscale
-- **Development:** Python, Shell, TypeScript, Golang, Rust, Apps Script
+- **Development:** Python, TypeScript, Shell, Go, Apps Script
 
-## Languages
-
-- **French**, Native &nbsp;|&nbsp; **English**, Cambridge C1 (Full Professional) &nbsp;|&nbsp; **Arabic**, Bilingual
+**Languages:** French (Native), English (Cambridge C1), Arabic (Bilingual)
