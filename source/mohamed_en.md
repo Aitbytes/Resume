@@ -5,7 +5,7 @@ Toulouse, France <span class="sep">|</span> [aittaleb@insa-toulouse.fr](mailto:a
 </span>
 
 <span class="summary">
-**DevSecOps Engineer** who thrives at the intersection of infrastructure, security, and automation. Built a self-bootstrapping GitOps platform for air-gapped environments from scratch during an R&D internship — architecture, code, prototype. Currently embedded in a 6-person DevSecOps team at EDF.
+**DevSecOps Engineer** who thrives at the intersection of infrastructure, security, and automation. Built a self-bootstrapping GitOps platform for air-gapped environments during an R&D internship — architecture, code, prototype. Currently embedded in a 6-person DevSecOps team at EDF.
 </span>
 
 ## Experience
@@ -13,15 +13,14 @@ Toulouse, France <span class="sep">|</span> [aittaleb@insa-toulouse.fr](mailto:a
 ### Devoteam, Toulouse, France
 
 #### DevSecOps Engineer — EDF Direction Commerce, <time>Apr 2026 – Present</time>
-- One of 6 engineers in a cross-functional DevSecOps team (3 Agile/testing, 1 DevOps, 1 PO, 1 security), serving EDF's Commerce Division.
+- One of 6 engineers on a cross-functional DevSecOps team serving EDF's Commerce Division.
 - Run monthly **security champion workshops** for 21+ attendees, structuring sessions around best practices, threat awareness, and peer experience sharing.
 - Provide **on-demand DevSecOps support** to 1–6 project teams per sprint, from 30-minute unblocking calls to full requirement scoping.
-- Built a **TypeScript extension for Gemini CLI** to streamline internal workflows — in testing, planned for division-wide rollout.
+- Built a **TypeScript extension for Gemini CLI** (skill import, security guidance injection, group-level context) — live with early adopters, rolling out division-wide.
 
 #### Consultant SecDevOps — Airbus OneTrust, <time>Oct 2025 – Apr 2026</time>
-- Managed operational maintenance (MCO) and incident response for a OneTrust data governance platform at a major aerospace client.
-- Automated operational reporting with Google Apps Script, reducing manual effort.
-- Served as the **technical interface** between the client's legal, PMO, and engineering teams.
+- Maintained and troubleshot a OneTrust data governance platform in operational condition for a major aerospace client, including incident response and configuration management.
+- Automated weekly activity reporting (scans, cookies, incidents, resolutions) with **Google Apps Script**, cutting turnaround from 2 days to 2 hours.
 
 #### SecDevOps R&D Intern, <time>Mar 2025 – Sep 2025</time> [<i class="fa fa-file-pdf-o" aria-hidden="true"></i>](https://drive.google.com/file/d/1-DCJuHKQ3kDYewHlmVdZuzm_WwbIhZso/view)
 - Designed and built a **self-bootstrapping DevSecOps platform** for air-gapped environments, solving the bootstrapping paradox of deploying GitOps tooling without external connectivity.
@@ -31,8 +30,8 @@ Toulouse, France <span class="sep">|</span> [aittaleb@insa-toulouse.fr](mailto:a
 ### Samares Engineering, Blagnac, France
 
 #### System & Security Administrator (Intern), <time>Jul 2024 – Sep 2024</time>
-- Conducted a security audit of the company's IT infrastructure and identified critical vulnerabilities.
-- Deployed centralized authentication (**Azure Entra ID**), a **Tailscale** mesh VPN, and **Vaultwarden** secrets management — without modifying the existing codebase.
+- Conducted a security audit surfacing issues including missing TLS on self-hosted services, fragmented authentication, absent secrets management, and license mismanagement causing outages.
+- Deployed centralized authentication (**Azure Entra ID**), **Tailscale** mesh VPN, and **Vaultwarden** secrets management — resolving access bottlenecks without modifying the existing codebase.
 
 ### Junior INSA Service, Toulouse, France
 
@@ -58,6 +57,6 @@ Toulouse, France <span class="sep">|</span> [aittaleb@insa-toulouse.fr](mailto:a
 - **Infrastructure & DevOps:** Kubernetes, Docker, Terraform, Linux, Git, Jenkins, GitLab, Ansible, Packer, Proxmox, CI/CD
 - **Security & IAM:** HashiCorp Vault, OpenBao, Checkmarx (SAST & SCA), SonarQube, TruffleHog, OAuth/OIDC
 - **Cloud & Monitoring:** Azure, GCP, AWS, Datadog, Traefik, Tailscale
-- **Development:** Python, TypeScript, Shell, Go, Apps Script
+- **Development:** Python, TypeScript, Shell, Go (learning), Apps Script
 
 **Languages:** French (Native), English (Cambridge C1), Arabic (Bilingual)
