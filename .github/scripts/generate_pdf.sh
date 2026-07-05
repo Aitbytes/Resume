@@ -60,8 +60,15 @@ fi
 # Define file uri for chromium
 html_file_uri=file://$(pwd)/${html_file_path}
 
+# Pick available browser binary
+CHROME_BIN="$(command -v chromium || command -v chromium-browser || command -v google-chrome-stable || true)"
+if [[ -z "$CHROME_BIN" ]]; then
+  echo "ERROR: no chrome/chromium binary found" >&2
+  exit 1
+fi
+
 # Convert HTML to PDF
-if ! chromium --headless --no-sandbox --print-to-pdf="$output_pdf" --no-margins "$html_file_uri"; then
+if ! $CHROME_BIN --headless --no-sandbox --print-to-pdf="$output_pdf" --no-margins "$html_file_uri"; then
     echo "Error in HTML to PDF conversion"
     exit 1
 fi

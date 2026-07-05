@@ -35,10 +35,14 @@ jobs:
       id: pages
       uses: actions/configure-pages@v3
 
-    - name: Run conversion script
+    - name: Run conversion script (French)
       run: |
         chmod +x .github/scripts/generate_pdf.sh
-        ./.github/scripts/generate_pdf.sh fr ./source/mohamed.md Aittaleb_Mohamed_Resume.pdf
+        ./.github/scripts/generate_pdf.sh fr ./source/mohamed.md Aittaleb_Mohamed_Resume_FR.pdf
+
+    - name: Run conversion script (English)
+      run: |
+        ./.github/scripts/generate_pdf.sh en ./source/mohamed_en.md Aittaleb_Mohamed_Resume_EN.pdf
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
@@ -49,11 +53,13 @@ jobs:
         name: site
         path: _site/
 
-    - name: Upload PDF
+    - name: Upload PDFs
       uses: actions/upload-artifact@v4
       with:
-        name: output-pdf
-        path: Aittaleb_Mohamed_Resume.pdf
+        name: output-pdfs
+        path: |
+          Aittaleb_Mohamed_Resume_FR.pdf
+          Aittaleb_Mohamed_Resume_EN.pdf
 
     - name: Debug - List _site directory contents
       run: ls -R _site
@@ -63,11 +69,19 @@ jobs:
       id: branch-name
       run: echo "branch=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
 
-    - name: Upload to Google Drive
+    - name: Upload to Google Drive (French)
       run: python ./.github/scripts/upload_to_drive.py
       env:
-        FILE_PATH: "Aittaleb_Mohamed_Resume.pdf"
-        DRIVE_FILE_NAME: "${{ steps.branch-name.outputs.branch }}_Aittaleb_Mohamed_Resume.pdf"
+        FILE_PATH: "Aittaleb_Mohamed_Resume_FR.pdf"
+        DRIVE_FILE_NAME: "${{ steps.branch-name.outputs.branch }}_Aittaleb_Mohamed_Resume_FR.pdf"
+        FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+        GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+
+    - name: Upload to Google Drive (English)
+      run: python ./.github/scripts/upload_to_drive.py
+      env:
+        FILE_PATH: "Aittaleb_Mohamed_Resume_EN.pdf"
+        DRIVE_FILE_NAME: "${{ steps.branch-name.outputs.branch }}_Aittaleb_Mohamed_Resume_EN.pdf"
         FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
         GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
 
@@ -120,7 +134,7 @@ jobs:
     #     GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  
 
     # Upload the PDF to the release
-    - name: Upload PDF to Release
+    - name: Upload PDFs to Release
       uses: "marvinpinto/action-automatic-releases@latest"
       with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
@@ -128,5 +142,6 @@ jobs:
           prerelease: true
           title: "Current build"
           files: |
-            Aittaleb_Mohamed_Resume.pdf
+            Aittaleb_Mohamed_Resume_FR.pdf
+            Aittaleb_Mohamed_Resume_EN.pdf
  
