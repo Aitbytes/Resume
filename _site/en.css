@@ -7,7 +7,7 @@ html {
 
 @media print {
     @page {
-        margin: 0.5in 0.75in;
+        margin: 0.5in 0.6in;
     }
 }
 
