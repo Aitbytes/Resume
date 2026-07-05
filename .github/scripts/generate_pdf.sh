@@ -68,7 +68,7 @@ if [[ -z "$CHROME_BIN" ]]; then
 fi
 
 # Convert HTML to PDF
-if ! $CHROME_BIN --headless --no-sandbox --print-to-pdf="$output_pdf" --no-margins "$html_file_uri"; then
+if ! $CHROME_BIN --headless --no-sandbox --no-pdf-header-footer --print-to-pdf="$output_pdf" --no-margins "$html_file_uri"; then
     echo "Error in HTML to PDF conversion"
     exit 1
 fi

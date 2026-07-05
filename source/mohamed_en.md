@@ -5,7 +5,7 @@ Toulouse, France <span class="sep">|</span> [aittaleb@insa-toulouse.fr](mailto:a
 </span>
 
 <span class="summary">
-**DevSecOps Architect with expertise in Governance, Risk and Compliance (GRC).** I translate business challenges into pragmatic, secure technical solutions. Specialized in cloud-native infrastructure, Zero-Trust security, and GitOps automation. Strong ability to communicate technical concepts to non-technical decision-makers.
+**DevSecOps Architect with expertise in Governance, Risk and Compliance (GRC).** Translating business challenges into pragmatic, secure solutions — cloud-native infrastructure, Zero-Trust security, and GitOps automation. Bridges technical and business stakeholders with clarity.
 </span>
 
 ## Experience
@@ -36,8 +36,7 @@ Toulouse, France <span class="sep">|</span> [aittaleb@insa-toulouse.fr](mailto:a
 ### Junior INSA Service — Toulouse, France
 
 #### Vice-President & Consultant — <time>Nov 2022 – Jan 2025</time>
-- Led a team of **25 students** and implemented quality processes for ISO 9001 certification.
-- Managed **8 technical projects** (AI, cybersecurity, web) and consulting engagements.
+- Led a team of **25 students**, implemented ISO 9001 quality processes, and managed **8 technical projects** (AI, cybersecurity, web).
 - Handled complex client disputes and contract negotiations (including a €4,000 litigation case).
 - Drove business development, translating client needs into technical specifications.
 
@@ -46,15 +45,12 @@ Toulouse, France <span class="sep">|</span> [aittaleb@insa-toulouse.fr](mailto:a
 ### INSA Toulouse <location>Toulouse, France</location> — <time>2020 – 2025</time>
 - Engineering Degree in **Computer Science & Networks**
 - Specialization in **TLS-SEC** (Cybersecurity), in partnership with INP ENSEEIHT
-- **Double Master's** Degree in Telecommunications Networks, with a focus on **Information Systems & Network Security** (Université de Toulouse)
+- **Double Master's** in Telecommunications Networks — Information Systems & Network Security (Université de Toulouse)
 
 ## Certifications
 
-- **CKAD** – Certified Kubernetes Application Developer
-- **Red Hat** Certified Specialist in OpenShift Administration (RH280)
-- **AWS** Certified Cloud Practitioner
-- **HashiCorp** Certified Terraform Associate (003) & Vault Associate
-- **Datadog** Certified Fundamentals
+- **CKAD** – Certified Kubernetes Application Developer  ·  **Red Hat** Certified Specialist in OpenShift Administration (RH280)
+- **AWS** Certified Cloud Practitioner  ·  **HashiCorp** Certified Terraform Associate (003) & Vault Associate  ·  **Datadog** Certified Fundamentals
 
 ## Skills
 
